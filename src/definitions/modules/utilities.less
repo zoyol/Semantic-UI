@@ -1,0 +1,109 @@
+/*!
+ * # Semantic UI - Utilities
+ * Extended for Kilomodo
+ */
+
+
+/*******************************
+            Theme
+*******************************/
+
+@type    : 'module';
+@element : 'utilities';
+
+@import (multiple) '../../theme.config';
+
+
+/*******************************
+          Timer
+*******************************/
+
+
+
+
+
+
+/*******************************
+          Types
+*******************************/
+
+
+// == Margin & Padding Sizes
+// -------------------------
+@smallSpace: 3px;
+@mediumSpace: 6px;
+@largeSpace: 10px;
+
+// == Avatar Sizes
+@avatar-mini: 22px;
+@avatar-mini-font: 12px;
+
+@avatar-small: 28px;
+@avatar-small-font: 16px;
+
+@avatar-medium: 40px;
+@avatar-medium-font: 18px;
+
+@avatar-large: 60px;
+@avatar-large-font: 30px;
+
+@avatar-xlarge: 100px;
+@avatar-xlarge-font: 60px;
+
+
+
+
+/*******************************
+          Variations
+*******************************/
+
+
+
+
+
+
+/*******************************
+          States
+*******************************/
+
+
+// Margin
+// -------------------------
+.marginSides(@size){
+  &-t { margin-top: @size; }
+  &-r { margin-right: @size; }
+  &-b { margin-bottom: @size; }
+  &-l { margin-left: @size; }
+}
+
+.ms {.marginSides(@smallSpace); }
+.mm {.marginSides(@mediumSpace); }
+.ml {.marginSides(@largeSpace); }
+
+// Padding
+// -------------------------
+// Re-used Margin classes thats why weird variables
+.paddingSides(@size){
+  &-t { padding-top: @size; }
+  &-r { padding-right: @size; }
+  &-b { padding-bottom: @size; }
+  &-l { padding-left: @size; }
+}
+
+.ps {.paddingSides(@smallSpace); }
+.pm {.paddingSides(@mediumSpace); }
+.pl {.paddingSides(@largeSpace); }
+
+
+// Opacity
+// ---------------
+.opacity-1 { opacity: 0.1; }
+.opacity-2 { opacity: 0.2; }
+.opacity-3 { opacity: 0.3; }
+.opacity-4 { opacity: 0.4; }
+.opacity-5 { opacity: 0.5; }
+.opacity-6 { opacity: 0.6; }
+.opacity-7 { opacity: 0.7; }
+.opacity-8 { opacity: 0.8; }
+.opacity-9 { opacity: 0.9; }
+.opacity-10 { opacity: 1.0; }

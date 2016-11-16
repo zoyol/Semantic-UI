@@ -67,7 +67,12 @@
     "api",
     "form",
     "state",
-    "visibility"
+    "visibility",
+    "timer",
+    "spacing",
+    "color",
+    "fe",
+    "utilities"
   ],
   "version": "2.2.6"
 }

@@ -1,0 +1,11 @@
+/*******************************
+           Checkbox
+*******************************/
+
+/* Toggle Color States */
+
+@toggleOffLabelColor: lighten(@grey, 15%);
+@toggleOnLabelColor: @selectedTextColor;
+@toggleOnLaneColor: @green;
+@toggleOnFocusLaneColor: @green;
+ 
