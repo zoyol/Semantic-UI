@@ -517,10 +517,10 @@
 
 /* Yellow */
 .ui.yellow.segment:not(.inverted) {
-  border-top: 2px solid #FBBD08;
+  border-top: 2px solid #F5AD44;
 }
 .ui.inverted.yellow.segment {
-  background-color: #FBBD08 !important;
+  background-color: #F5AD44 !important;
   color: #FFFFFF !important;
 }
 

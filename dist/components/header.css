@@ -383,13 +383,13 @@ a.ui.inverted.olive.header:hover {
 /*--- Yellow ---*/
 
 .ui.yellow.header {
-  color: #FBBD08 !important;
+  color: #F5AD44 !important;
 }
 a.ui.yellow.header:hover {
-  color: #eaae00 !important;
+  color: #fea422 !important;
 }
 .ui.yellow.dividing.header {
-  border-bottom: 2px solid #FBBD08;
+  border-bottom: 2px solid #F5AD44;
 }
 
 /* Inverted */
