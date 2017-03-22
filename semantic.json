@@ -67,13 +67,7 @@
     "api",
     "form",
     "state",
-    "visibility",
-    "timer",
-    "spacing",
-    "color",
-    "fe",
-    "utilities",
-    "fe-feed"
+    "visibility"
   ],
   "version": "2.2.6"
 }
