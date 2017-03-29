@@ -414,10 +414,10 @@ a.ui.green.header:hover {
 
 /* Inverted */
 .ui.inverted.green.header {
-  color: #8CC63F !important;
+  color: #2ECC40 !important;
 }
 a.ui.inverted.green.header:hover {
-  color: #80bc30 !important;
+  color: #22be34 !important;
 }
 
 /*--- Teal ---*/

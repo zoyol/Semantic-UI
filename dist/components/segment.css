@@ -15,12 +15,12 @@
 
 .ui.segment {
   position: relative;
-  background: #222931;
+  background: #ffffff;
   box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
   margin: 1rem 0em;
   padding: 1em 1em;
   border-radius: 0.28571429rem;
-  border: #2c3640;
+  border: 1px solid rgba(34, 36, 38, 0.15);
 }
 .ui.segment:first-child {
   margin-top: 0em;
@@ -86,8 +86,8 @@
 
 /* Table */
 .ui.basic.table.segment {
-  background: #222931;
-  border: #2c3640;
+  background: #ffffff;
+  border: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
 }
 .ui[class*="very basic"].table.segment {
@@ -128,7 +128,7 @@
   left: 0px;
   position: absolute;
   width: 100%;
-  border: #2c3640;
+  border: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: '';
 }
 .ui.piled.segments:before,
@@ -279,7 +279,7 @@
           flex-direction: column;
   position: relative;
   margin: 1rem 0em;
-  border: #2c3640;
+  border: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
   border-radius: 0.28571429rem;
 }
@@ -299,7 +299,7 @@
   width: auto;
   box-shadow: none;
   border: none;
-  border-top: #2c3640;
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
 }
 .ui.segments:not(.horizontal) > .segment:first-child {
   border-top: none;
@@ -327,7 +327,7 @@
 
 /* Nested Group */
 .ui.segments > .ui.segments {
-  border-top: #2c3640;
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
   margin: 1rem 1rem;
 }
 .ui.segments > .segments:first-child {
@@ -349,11 +349,11 @@
   background-color: transparent;
   border-radius: 0px;
   padding: 0em;
-  background-color: #222931;
+  background-color: #ffffff;
   box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
   margin: 1rem 0em;
   border-radius: 0.28571429rem;
-  border: #2c3640;
+  border: 1px solid rgba(34, 36, 38, 0.15);
 }
 
 /* Nested Horizontal Group */
@@ -363,7 +363,7 @@
   border-radius: 0px;
   border: none;
   box-shadow: none;
-  border-top: #2c3640;
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
 }
 
 /* Horizontal Segment */
@@ -659,21 +659,21 @@
 }
 .ui.inverted.segment,
 .ui.primary.inverted.segment {
-  background: #262e37;
-  color: #C4C7CA;
+  background: #2b3640;
+  color: #c4c7ca;
 }
 
 /* Nested */
 .ui.inverted.segment .segment {
-  color: #C4C7CA;
+  color: rgba(0, 0, 0, 0.87);
 }
 .ui.inverted.segment .inverted.segment {
-  color: #C4C7CA;
+  color: #c4c7ca;
 }
 
 /* Attached */
 .ui.inverted.attached.segment {
-  border-color: #37424f;
+  border-color: #555555;
 }
 
 /*-------------------

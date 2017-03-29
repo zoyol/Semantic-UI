@@ -2794,8 +2794,8 @@ input::selection {
 .ui.inverted.green.buttons .button,
 .ui.inverted.green.button {
   background-color: transparent;
-  box-shadow: 0px 0px 0px 2px #8CC63F inset !important;
-  color: #8CC63F;
+  box-shadow: 0px 0px 0px 2px #2ECC40 inset !important;
+  color: #2ECC40;
 }
 
 .ui.inverted.green.buttons .button:hover,
@@ -2812,22 +2812,22 @@ input::selection {
 
 .ui.inverted.green.buttons .button:hover,
 .ui.inverted.green.button:hover {
-  background-color: #80bc30;
+  background-color: #22be34;
 }
 
 .ui.inverted.green.buttons .button:focus,
 .ui.inverted.green.button:focus {
-  background-color: #78b626;
+  background-color: #19b82b;
 }
 
 .ui.inverted.green.buttons .active.button,
 .ui.inverted.green.active.button {
-  background-color: #80bf2c;
+  background-color: #1fc231;
 }
 
 .ui.inverted.green.buttons .button:active,
 .ui.inverted.green.button:active {
-  background-color: #71a230;
+  background-color: #25a233;
 }
 
 /* Inverted Basic */
@@ -2843,29 +2843,29 @@ input::selection {
 .ui.inverted.green.basic.buttons .button:hover,
 .ui.inverted.green.buttons .basic.button:hover,
 .ui.inverted.green.basic.button:hover {
-  box-shadow: 0px 0px 0px 2px #80bc30 inset !important;
-  color: #8CC63F !important;
+  box-shadow: 0px 0px 0px 2px #22be34 inset !important;
+  color: #2ECC40 !important;
 }
 
 .ui.inverted.green.basic.buttons .button:focus,
 .ui.inverted.green.basic.buttons .button:focus,
 .ui.inverted.green.basic.button:focus {
-  box-shadow: 0px 0px 0px 2px #78b626 inset !important;
-  color: #8CC63F !important;
+  box-shadow: 0px 0px 0px 2px #19b82b inset !important;
+  color: #2ECC40 !important;
 }
 
 .ui.inverted.green.basic.buttons .active.button,
 .ui.inverted.green.buttons .basic.active.button,
 .ui.inverted.green.basic.active.button {
-  box-shadow: 0px 0px 0px 2px #80bf2c inset !important;
-  color: #8CC63F !important;
+  box-shadow: 0px 0px 0px 2px #1fc231 inset !important;
+  color: #2ECC40 !important;
 }
 
 .ui.inverted.green.basic.buttons .button:active,
 .ui.inverted.green.buttons .basic.button:active,
 .ui.inverted.green.basic.button:active {
-  box-shadow: 0px 0px 0px 2px #71a230 inset !important;
-  color: #8CC63F !important;
+  box-shadow: 0px 0px 0px 2px #25a233 inset !important;
+  color: #2ECC40 !important;
 }
 
 /*--- Orange ---*/
@@ -6782,11 +6782,11 @@ a.ui.green.header:hover {
 /* Inverted */
 
 .ui.inverted.green.header {
-  color: #8CC63F !important;
+  color: #2ECC40 !important;
 }
 
 a.ui.inverted.green.header:hover {
-  color: #80bc30 !important;
+  color: #22be34 !important;
 }
 
 /*--- Teal ---*/
@@ -7430,7 +7430,7 @@ i.green.icon {
 }
 
 i.inverted.green.icon {
-  color: #8CC63F !important;
+  color: #2ECC40 !important;
 }
 
 i.inverted.bordered.green.icon,
@@ -15627,12 +15627,12 @@ ol.ui.horizontal.list li:before,
 
 .ui.segment {
   position: relative;
-  background: #222931;
+  background: #ffffff;
   box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
   margin: 1rem 0em;
   padding: 1em 1em;
   border-radius: 0.28571429rem;
-  border: #2c3640;
+  border: 1px solid rgba(34, 36, 38, 0.15);
 }
 
 .ui.segment:first-child {
@@ -15709,8 +15709,8 @@ ol.ui.horizontal.list li:before,
 /* Table */
 
 .ui.basic.table.segment {
-  background: #222931;
-  border: #2c3640;
+  background: #ffffff;
+  border: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
 }
 
@@ -15753,7 +15753,7 @@ ol.ui.horizontal.list li:before,
   left: 0px;
   position: absolute;
   width: 100%;
-  border: #2c3640;
+  border: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: '';
 }
 
@@ -15917,7 +15917,7 @@ ol.ui.horizontal.list li:before,
   flex-direction: column;
   position: relative;
   margin: 1rem 0em;
-  border: #2c3640;
+  border: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
   border-radius: 0.28571429rem;
 }
@@ -15940,7 +15940,7 @@ ol.ui.horizontal.list li:before,
   width: auto;
   box-shadow: none;
   border: none;
-  border-top: #2c3640;
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
 }
 
 .ui.segments:not(.horizontal) > .segment:first-child {
@@ -15972,7 +15972,7 @@ ol.ui.horizontal.list li:before,
 /* Nested Group */
 
 .ui.segments > .ui.segments {
-  border-top: #2c3640;
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
   margin: 1rem 1rem;
 }
 
@@ -15997,11 +15997,11 @@ ol.ui.horizontal.list li:before,
   background-color: transparent;
   border-radius: 0px;
   padding: 0em;
-  background-color: #222931;
+  background-color: #ffffff;
   box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
   margin: 1rem 0em;
   border-radius: 0.28571429rem;
-  border: #2c3640;
+  border: 1px solid rgba(34, 36, 38, 0.15);
 }
 
 /* Nested Horizontal Group */
@@ -16012,7 +16012,7 @@ ol.ui.horizontal.list li:before,
   border-radius: 0px;
   border: none;
   box-shadow: none;
-  border-top: #2c3640;
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
 }
 
 /* Horizontal Segment */
@@ -16341,24 +16341,24 @@ ol.ui.horizontal.list li:before,
 
 .ui.inverted.segment,
 .ui.primary.inverted.segment {
-  background: #262e37;
-  color: #C4C7CA;
+  background: #2b3640;
+  color: #c4c7ca;
 }
 
 /* Nested */
 
 .ui.inverted.segment .segment {
-  color: #C4C7CA;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .ui.inverted.segment .inverted.segment {
-  color: #C4C7CA;
+  color: #c4c7ca;
 }
 
 /* Attached */
 
 .ui.inverted.attached.segment {
-  border-color: #37424f;
+  border-color: #555555;
 }
 
 /*-------------------
@@ -19750,7 +19750,7 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.inverted[class*="vertically divided"].grid > .row:before {
-  box-shadow: 0px -1px 0px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px -1px 0px 0px #6a7277;
 }
 
 /* Relaxed */
@@ -27738,7 +27738,7 @@ a.ui.card:hover,
 .ui.inverted.green.statistics .statistic > .value,
 .ui.statistics .inverted.green.statistic > .value,
 .ui.inverted.green.statistic > .value {
-  color: #8CC63F;
+  color: #2ECC40;
 }
 
 .ui.inverted.teal.statistics .statistic > .value,
@@ -32747,7 +32747,7 @@ a.ui.nag {
 }
 
 .ui.green.inverted.progress .bar {
-  background-color: #8CC63F;
+  background-color: #2ECC40;
 }
 
 /* Teal */
