@@ -27,7 +27,7 @@
   line-height: 1.21428571em;
   padding: 0.67857143em 1em;
   font-size: 1em;
-  background: #ffffff;
+  background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
   color: rgba(0, 0, 0, 0.87);
   box-shadow: 0em 0em 0em 0em transparent inset;
@@ -127,7 +127,7 @@
 }
 .ui.search > .results .result .price {
   float: right;
-  color: #5EA12E;
+  color: #21BA45;
 }
 
 /*--------------
@@ -172,7 +172,7 @@
 
 .ui.search > .prompt:focus {
   border-color: rgba(34, 36, 38, 0.35);
-  background: #ffffff;
+  background: #FFFFFF;
   color: rgba(0, 0, 0, 0.95);
 }
 
@@ -317,7 +317,7 @@
 
 /* Category Result */
 .ui.category.search > .results .category .result {
-  background: #ffffff;
+  background: #FFFFFF;
   margin-left: 100px;
   border-left: 1px solid rgba(34, 36, 38, 0.15);
   border-bottom: 1px solid rgba(34, 36, 38, 0.1);
@@ -398,11 +398,5 @@
 
 /*******************************
          Theme Overrides
-*******************************/
-
-
-
-/*******************************
-         Site Overrides
 *******************************/
 
