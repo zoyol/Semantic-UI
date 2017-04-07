@@ -24795,6 +24795,14 @@ Floated Menu / Item
 /*******************************
          Site Overrides
 *******************************/
+
+/* Text Color */
+
+.ui.inverted.table {
+  background: #2b3640;
+  color: #c4c7ca;
+  border: #3c464f;
+}
 /*!
  * # Semantic UI 2.2.10 - Ad
  * http://github.com/semantic-org/semantic-ui/

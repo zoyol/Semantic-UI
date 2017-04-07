@@ -1106,3 +1106,10 @@
          Site Overrides
 *******************************/
 
+
+/* Text Color */
+.ui.inverted.table {
+  background: #2b3640;
+  color: #c4c7ca;
+  border: #3c464f;
+}
