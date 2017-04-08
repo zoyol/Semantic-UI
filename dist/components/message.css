@@ -475,3 +475,8 @@
         Site Overrides
 *******************************/
 
+.ui.inverted.message,
+.ui.black.message {
+  background-color: #3c464f;
+  color: #c4c7ca;
+}
