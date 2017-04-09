@@ -613,7 +613,6 @@
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -1624,7 +1623,6 @@ th {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -1998,7 +1996,6 @@ th {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*******************************
              Mix-ins
 *******************************/
@@ -2741,7 +2738,6 @@ input::selection {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -3516,7 +3512,6 @@ input::selection {
   background: rgba(0, 0, 0, 0.05) !important;
   box-shadow: '' !important;
   color: rgba(0, 0, 0, 0.95);
-  box-shadow: rgba(34, 36, 38, 0.35);
 }
 .ui.basic.buttons .active.button:hover,
 .ui.basic.active.button:hover {
@@ -3530,7 +3525,7 @@ input::selection {
   box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.15) inset, 0px 1px 4px 0px rgba(34, 36, 38, 0.15) inset inset;
 }
 .ui.basic.buttons .active.button {
-  box-shadow: rgba(34, 36, 38, 0.35) inset;
+  box-shadow: '' !important;
 }
 /* Standard Basic Inverted */
 .ui.basic.inverted.buttons .button,
@@ -4559,8 +4554,8 @@ input::selection {
 .ui.inverted.green.buttons .button,
 .ui.inverted.green.button {
   background-color: transparent;
-  box-shadow: 0px 0px 0px 2px #8CC63F inset !important;
-  color: #8CC63F;
+  box-shadow: 0px 0px 0px 2px #2ECC40 inset !important;
+  color: #2ECC40;
 }
 .ui.inverted.green.buttons .button:hover,
 .ui.inverted.green.button:hover,
@@ -4575,19 +4570,19 @@ input::selection {
 }
 .ui.inverted.green.buttons .button:hover,
 .ui.inverted.green.button:hover {
-  background-color: #80bc30;
+  background-color: #22be34;
 }
 .ui.inverted.green.buttons .button:focus,
 .ui.inverted.green.button:focus {
-  background-color: #78b626;
+  background-color: #19b82b;
 }
 .ui.inverted.green.buttons .active.button,
 .ui.inverted.green.active.button {
-  background-color: #80bf2c;
+  background-color: #1fc231;
 }
 .ui.inverted.green.buttons .button:active,
 .ui.inverted.green.button:active {
-  background-color: #71a230;
+  background-color: #25a233;
 }
 /* Inverted Basic */
 .ui.inverted.green.basic.buttons .button,
@@ -4600,26 +4595,26 @@ input::selection {
 .ui.inverted.green.basic.buttons .button:hover,
 .ui.inverted.green.buttons .basic.button:hover,
 .ui.inverted.green.basic.button:hover {
-  box-shadow: 0px 0px 0px 2px #80bc30 inset !important;
-  color: #8CC63F !important;
+  box-shadow: 0px 0px 0px 2px #22be34 inset !important;
+  color: #2ECC40 !important;
 }
 .ui.inverted.green.basic.buttons .button:focus,
 .ui.inverted.green.basic.buttons .button:focus,
 .ui.inverted.green.basic.button:focus {
-  box-shadow: 0px 0px 0px 2px #78b626 inset !important;
-  color: #8CC63F !important;
+  box-shadow: 0px 0px 0px 2px #19b82b inset !important;
+  color: #2ECC40 !important;
 }
 .ui.inverted.green.basic.buttons .active.button,
 .ui.inverted.green.buttons .basic.active.button,
 .ui.inverted.green.basic.active.button {
-  box-shadow: 0px 0px 0px 2px #80bf2c inset !important;
-  color: #8CC63F !important;
+  box-shadow: 0px 0px 0px 2px #1fc231 inset !important;
+  color: #2ECC40 !important;
 }
 .ui.inverted.green.basic.buttons .button:active,
 .ui.inverted.green.buttons .basic.button:active,
 .ui.inverted.green.basic.button:active {
-  box-shadow: 0px 0px 0px 2px #71a230 inset !important;
-  color: #8CC63F !important;
+  box-shadow: 0px 0px 0px 2px #25a233 inset !important;
+  color: #2ECC40 !important;
 }
 /*--- Orange ---*/
 .ui.orange.buttons .button,
@@ -6665,7 +6660,6 @@ input::selection {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -7428,7 +7422,6 @@ input::selection {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -8297,7 +8290,6 @@ input::selection {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -9942,7 +9934,6 @@ i.flag.zimbabwe:before {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -10361,10 +10352,10 @@ a.ui.green.header:hover {
 }
 /* Inverted */
 .ui.inverted.green.header {
-  color: #8CC63F !important;
+  color: #2ECC40 !important;
 }
 a.ui.inverted.green.header:hover {
-  color: #80bc30 !important;
+  color: #22be34 !important;
 }
 /*--- Teal ---*/
 .ui.teal.header {
@@ -11227,7 +11218,6 @@ a.ui.inverted.grey.header:hover {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -11471,7 +11461,7 @@ i.green.icon {
   color: #5EA12E !important;
 }
 i.inverted.green.icon {
-  color: #8CC63F !important;
+  color: #2ECC40 !important;
 }
 i.inverted.bordered.green.icon,
 i.inverted.circular.green.icon {
@@ -15040,7 +15030,6 @@ i.icon.times.rectangle.outline:before {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -15958,7 +15947,6 @@ img.ui.bordered.image {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -17050,7 +17038,6 @@ img.ui.bordered.image {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -18877,7 +18864,6 @@ a.ui.basic.label:hover {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -20433,7 +20419,6 @@ ol.ui.horizontal.list li:before,
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -21373,7 +21358,6 @@ ol.ui.horizontal.list li:before,
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -22139,7 +22123,6 @@ ol.ui.horizontal.list li:before,
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -22980,7 +22963,6 @@ ol.ui.horizontal.list li:before,
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -23054,6 +23036,8 @@ ol.ui.horizontal.list li:before,
 /*******************************
     User Variable Overrides
 *******************************/
+/***** Inverted Segment Background Color *****/
+/***** Inverted Segment Text Color *****/
 /*******************************
              Mix-ins
 *******************************/
@@ -23069,12 +23053,12 @@ ol.ui.horizontal.list li:before,
 *******************************/
 .ui.segment {
   position: relative;
-  background: #222931;
+  background: #ffffff;
   box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
   margin: 1rem 0em;
   padding: 1em 1em;
   border-radius: 0.28571429rem;
-  border: #37424f;
+  border: 1px solid rgba(34, 36, 38, 0.15);
 }
 .ui.segment:first-child {
   margin-top: 0em;
@@ -23133,8 +23117,8 @@ ol.ui.horizontal.list li:before,
 }
 /* Table */
 .ui.basic.table.segment {
-  background: #222931;
-  border: #37424f;
+  background: #ffffff;
+  border: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
 }
 .ui[class*="very basic"].table.segment {
@@ -23170,7 +23154,7 @@ ol.ui.horizontal.list li:before,
   left: 0px;
   position: absolute;
   width: 100%;
-  border: #37424f;
+  border: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: '';
 }
 .ui.piled.segments:before,
@@ -23293,7 +23277,7 @@ ol.ui.horizontal.list li:before,
   flex-direction: column;
   position: relative;
   margin: 1rem 0em;
-  border: #37424f;
+  border: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
   border-radius: 0.28571429rem;
 }
@@ -23312,7 +23296,7 @@ ol.ui.horizontal.list li:before,
   width: auto;
   box-shadow: none;
   border: none;
-  border-top: #37424f;
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
 }
 .ui.segments:not(.horizontal) > .segment:first-child {
   border-top: none;
@@ -23337,7 +23321,7 @@ ol.ui.horizontal.list li:before,
 }
 /* Nested Group */
 .ui.segments > .ui.segments {
-  border-top: #37424f;
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
   margin: 1rem 1rem;
 }
 .ui.segments > .segments:first-child {
@@ -23353,11 +23337,11 @@ ol.ui.horizontal.list li:before,
   background-color: transparent;
   border-radius: 0px;
   padding: 0em;
-  background-color: #222931;
+  background-color: #ffffff;
   box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
   margin: 1rem 0em;
   border-radius: 0.28571429rem;
-  border: #37424f;
+  border: 1px solid rgba(34, 36, 38, 0.15);
 }
 /* Nested Horizontal Group */
 .ui.segments > .horizontal.segments {
@@ -23366,7 +23350,7 @@ ol.ui.horizontal.list li:before,
   border-radius: 0px;
   border: none;
   box-shadow: none;
-  border-top: #37424f;
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
 }
 /* Horizontal Segment */
 .ui.horizontal.segments > .segment {
@@ -23608,19 +23592,19 @@ ol.ui.horizontal.list li:before,
 }
 .ui.inverted.segment,
 .ui.primary.inverted.segment {
-  background: #2a333d;
-  color: #C4C7CA;
+  background: #2b3640;
+  color: #c4c7ca;
 }
 /* Nested */
 .ui.inverted.segment .segment {
-  color: #dfe1e2;
+  color: rgba(0, 0, 0, 0.87);
 }
 .ui.inverted.segment .inverted.segment {
-  color: #C4C7CA;
+  color: #c4c7ca;
 }
 /* Attached */
 .ui.inverted.attached.segment {
-  border-color: #414f5e;
+  border-color: #555555;
 }
 /*-------------------
      Emphasis
@@ -24330,7 +24314,6 @@ ol.ui.horizontal.list li:before,
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -25498,7 +25481,6 @@ ol.ui.horizontal.list li:before,
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -26233,7 +26215,6 @@ ol.ui.horizontal.list li:before,
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -27251,6 +27232,73 @@ ol.ui.horizontal.list li:before,
 /*******************************
          Site Overrides
 *******************************/
+/*--------------------
+    Inverted Colors
+---------------------*/
+.ui.inverted.form label,
+.ui.form .inverted.segment label,
+.ui.form .inverted.segment .ui.checkbox label,
+.ui.form .inverted.segment .ui.checkbox .box,
+.ui.inverted.form .ui.checkbox label,
+.ui.inverted.form .ui.checkbox .box,
+.ui.inverted.form .inline.fields > label,
+.ui.inverted.form .inline.fields .field > label,
+.ui.inverted.form .inline.fields .field > p,
+.ui.inverted.form .inline.field > label,
+.ui.inverted.form .inline.field > p {
+  color: #c4c7ca;
+}
+/* Inverted Field */
+.ui.inverted.form input:not([type]),
+.ui.inverted.form input[type="date"],
+.ui.inverted.form input[type="datetime-local"],
+.ui.inverted.form input[type="email"],
+.ui.inverted.form input[type="number"],
+.ui.inverted.form input[type="password"],
+.ui.inverted.form input[type="search"],
+.ui.inverted.form input[type="tel"],
+.ui.inverted.form input[type="time"],
+.ui.inverted.form input[type="text"],
+.ui.inverted.form input[type="file"],
+.ui.inverted.form input[type="url"] {
+  background: #3c464f;
+  border-color: #2b3640;
+  color: #c4c7ca;
+  box-shadow: #212931;
+}
+.ui.inverted.form .field textarea,
+.ui.inverted.form .field select,
+.ui.inverted.form .field input:not([type]),
+.ui.inverted.form .field input[type="date"],
+.ui.inverted.form .field input[type="datetime-local"],
+.ui.inverted.form .field input[type="email"],
+.ui.inverted.form .field input[type="number"],
+.ui.inverted.form .field input[type="password"],
+.ui.inverted.form .field input[type="search"],
+.ui.inverted.form .field input[type="tel"],
+.ui.inverted.form .field input[type="time"],
+.ui.inverted.form .field input[type="text"],
+.ui.inverted.form .field input[type="file"],
+.ui.inverted.form .field input[type="url"],
+.ui.inverted.form textarea,
+.ui.inverted.form select,
+.ui.inverted.form input:not([type]),
+.ui.inverted.form input[type="date"],
+.ui.inverted.form input[type="datetime-local"],
+.ui.inverted.form input[type="email"],
+.ui.inverted.form input[type="number"],
+.ui.inverted.form input[type="password"],
+.ui.inverted.form input[type="search"],
+.ui.inverted.form input[type="tel"],
+.ui.inverted.form input[type="time"],
+.ui.inverted.form input[type="text"],
+.ui.inverted.form input[type="file"],
+.ui.inverted.form input[type="url"] {
+  background: #3c464f;
+  border-color: #2b3640;
+  color: #c4c7ca;
+  box-shadow: #212931;
+}
 /*!
  * # Semantic UI - Grid
  * http://github.com/semantic-org/semantic-ui/
@@ -27854,7 +27902,6 @@ ol.ui.horizontal.list li:before,
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -28956,7 +29003,7 @@ ol.ui.horizontal.list li:before,
   box-shadow: none;
 }
 .ui.inverted[class*="vertically divided"].grid > .row:before {
-  box-shadow: 0px -1px 0px 0px #414f5e;
+  box-shadow: 0px -1px 0px 0px #6a7277;
 }
 /* Relaxed */
 .ui.relaxed[class*="vertically divided"].grid > .row:before {
@@ -30324,7 +30371,6 @@ ol.ui.horizontal.list li:before,
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -32784,7 +32830,6 @@ Floated Menu / Item
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -33246,6 +33291,11 @@ Floated Menu / Item
 /*******************************
         Site Overrides
 *******************************/
+.ui.inverted.message,
+.ui.black.message {
+  background-color: #3c464f;
+  color: #c4c7ca;
+}
 /*!
  * # Semantic UI - Table
  * http://github.com/semantic-org/semantic-ui/
@@ -33849,7 +33899,6 @@ Floated Menu / Item
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -34921,6 +34970,12 @@ Floated Menu / Item
 /*******************************
          Site Overrides
 *******************************/
+/* Text Color */
+.ui.inverted.table {
+  background: #2b3640;
+  color: #c4c7ca;
+  border: #3c464f;
+}
 /* Views */
 /*!
  * # Semantic UI - Ad
@@ -35526,7 +35581,6 @@ Floated Menu / Item
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -36363,7 +36417,6 @@ Floated Menu / Item
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -37102,7 +37155,7 @@ a.ui.card:hover,
     margin-left: 0em;
     margin-right: 0em;
   }
-  .ui.two.doubling.cards .card {
+  .ui.two.doubling.cards > .card {
     width: 100%;
     margin-left: 0em;
     margin-right: 0em;
@@ -37111,7 +37164,7 @@ a.ui.card:hover,
     margin-left: -1em;
     margin-right: -1em;
   }
-  .ui.three.doubling.cards .card {
+  .ui.three.doubling.cards > .card {
     width: calc( 50%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -37120,7 +37173,7 @@ a.ui.card:hover,
     margin-left: -1em;
     margin-right: -1em;
   }
-  .ui.four.doubling.cards .card {
+  .ui.four.doubling.cards > .card {
     width: calc( 50%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -37129,7 +37182,7 @@ a.ui.card:hover,
     margin-left: -1em;
     margin-right: -1em;
   }
-  .ui.five.doubling.cards .card {
+  .ui.five.doubling.cards > .card {
     width: calc( 50%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -37138,7 +37191,7 @@ a.ui.card:hover,
     margin-left: -1em;
     margin-right: -1em;
   }
-  .ui.six.doubling.cards .card {
+  .ui.six.doubling.cards > .card {
     width: calc( 50%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -37147,7 +37200,7 @@ a.ui.card:hover,
     margin-left: -1em;
     margin-right: -1em;
   }
-  .ui.seven.doubling.cards .card {
+  .ui.seven.doubling.cards > .card {
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -37156,7 +37209,7 @@ a.ui.card:hover,
     margin-left: -1em;
     margin-right: -1em;
   }
-  .ui.eight.doubling.cards .card {
+  .ui.eight.doubling.cards > .card {
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -37165,7 +37218,7 @@ a.ui.card:hover,
     margin-left: -1em;
     margin-right: -1em;
   }
-  .ui.nine.doubling.cards .card {
+  .ui.nine.doubling.cards > .card {
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -37174,7 +37227,7 @@ a.ui.card:hover,
     margin-left: -1em;
     margin-right: -1em;
   }
-  .ui.ten.doubling.cards .card {
+  .ui.ten.doubling.cards > .card {
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -37186,7 +37239,7 @@ a.ui.card:hover,
     margin-left: 0em;
     margin-right: 0em;
   }
-  .ui.two.doubling.cards .card {
+  .ui.two.doubling.cards > .card {
     width: 100%;
     margin-left: 0em;
     margin-right: 0em;
@@ -37195,7 +37248,7 @@ a.ui.card:hover,
     margin-left: -1em;
     margin-right: -1em;
   }
-  .ui.three.doubling.cards .card {
+  .ui.three.doubling.cards > .card {
     width: calc( 50%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -37204,7 +37257,7 @@ a.ui.card:hover,
     margin-left: -1em;
     margin-right: -1em;
   }
-  .ui.four.doubling.cards .card {
+  .ui.four.doubling.cards > .card {
     width: calc( 50%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -37213,7 +37266,7 @@ a.ui.card:hover,
     margin-left: -1em;
     margin-right: -1em;
   }
-  .ui.five.doubling.cards .card {
+  .ui.five.doubling.cards > .card {
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -37222,7 +37275,7 @@ a.ui.card:hover,
     margin-left: -1em;
     margin-right: -1em;
   }
-  .ui.six.doubling.cards .card {
+  .ui.six.doubling.cards > .card {
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -37231,7 +37284,7 @@ a.ui.card:hover,
     margin-left: -1em;
     margin-right: -1em;
   }
-  .ui.eight.doubling.cards .card {
+  .ui.eight.doubling.cards > .card {
     width: calc( 33.33333333%  -  2em );
     margin-left: 1em;
     margin-right: 1em;
@@ -37240,7 +37293,7 @@ a.ui.card:hover,
     margin-left: -0.75em;
     margin-right: -0.75em;
   }
-  .ui.eight.doubling.cards .card {
+  .ui.eight.doubling.cards > .card {
     width: calc( 25%  -  1.5em );
     margin-left: 0.75em;
     margin-right: 0.75em;
@@ -37249,7 +37302,7 @@ a.ui.card:hover,
     margin-left: -0.75em;
     margin-right: -0.75em;
   }
-  .ui.nine.doubling.cards .card {
+  .ui.nine.doubling.cards > .card {
     width: calc( 25%  -  1.5em );
     margin-left: 0.75em;
     margin-right: 0.75em;
@@ -37258,7 +37311,7 @@ a.ui.card:hover,
     margin-left: -0.75em;
     margin-right: -0.75em;
   }
-  .ui.ten.doubling.cards .card {
+  .ui.ten.doubling.cards > .card {
     width: calc( 20%  -  1.5em );
     margin-left: 0.75em;
     margin-right: 0.75em;
@@ -37897,7 +37950,6 @@ a.ui.card:hover,
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -38783,7 +38835,6 @@ a.ui.card:hover,
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -39697,7 +39748,6 @@ a.ui.card:hover,
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -40766,7 +40816,6 @@ a.ui.card:hover,
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -41172,7 +41221,7 @@ a.ui.card:hover,
 .ui.inverted.green.statistics .statistic > .value,
 .ui.statistics .inverted.green.statistic > .value,
 .ui.inverted.green.statistic > .value {
-  color: #8CC63F;
+  color: #2ECC40;
 }
 .ui.inverted.teal.statistics .statistic > .value,
 .ui.statistics .inverted.teal.statistic > .value,
@@ -41914,7 +41963,6 @@ a.ui.card:hover,
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -42775,7 +42823,6 @@ a.ui.card:hover,
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -43972,7 +44019,6 @@ a.ui.card:hover,
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -44770,7 +44816,6 @@ body.dimmable > .dimmer {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -46758,7 +46803,6 @@ select.ui.dropdown {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -47539,7 +47583,6 @@ select.ui.dropdown {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -48619,7 +48662,6 @@ select.ui.dropdown {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -49395,7 +49437,6 @@ a.ui.nag {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -50695,7 +50736,6 @@ a.ui.nag {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -51090,7 +51130,7 @@ a.ui.nag {
   background-color: #5EA12E;
 }
 .ui.green.inverted.progress .bar {
-  background-color: #8CC63F;
+  background-color: #2ECC40;
 }
 /* Teal */
 .ui.teal.progress .bar {
@@ -51790,7 +51830,6 @@ a.ui.nag {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -52642,7 +52681,6 @@ a.ui.nag {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -53653,7 +53691,6 @@ a.ui.nag {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -54402,7 +54439,6 @@ a.ui.nag {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -55507,7 +55543,6 @@ html.ios {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -56186,7 +56221,6 @@ html.ios {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
@@ -56881,7 +56915,6 @@ html.ios {
 /*******************************
      User Global Variables
 *******************************/
-/*---  Colors  ---*/
 /*-------------------
  Component Variables
 ---------------------*/
