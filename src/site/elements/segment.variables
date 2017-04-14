@@ -1,0 +1,10 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+
+/***** Inverted Segment Background Color *****/
+@invertedBackground:@main;
+
+/***** Inverted Segment Text Color *****/
+@invertedTextColor:@text;

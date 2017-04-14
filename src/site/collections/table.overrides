@@ -1,0 +1,10 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+/* Text Color */
+.ui.inverted.table {
+  background: @main;
+  color: @text;
+  border: @highlight;
+}

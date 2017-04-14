@@ -1,0 +1,12 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+@main-dark: #212931;
+@main: #2b3640;
+@highlight: #3c464f;
+@muted-text: #6a7277;
+@text: #c4c7ca;
+@green: #5EA12E;
+@green-light: #c7eab0;
+@white: #ffffff;

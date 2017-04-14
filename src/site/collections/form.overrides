@@ -1,0 +1,89 @@
+/*******************************
+         Site Overrides
+*******************************/
+/*--------------------
+    Inverted Colors
+---------------------*/
+
+.ui.inverted.form label,
+.ui.form .inverted.segment label,
+.ui.form .inverted.segment .ui.checkbox label,
+.ui.form .inverted.segment .ui.checkbox .box,
+.ui.inverted.form .ui.checkbox label,
+.ui.inverted.form .ui.checkbox .box,
+.ui.inverted.form .inline.fields > label,
+.ui.inverted.form .inline.fields .field > label,
+.ui.inverted.form .inline.fields .field > p,
+.ui.inverted.form .inline.field > label,
+.ui.inverted.form .inline.field > p {
+  color: @text;
+}
+
+/* Inverted Field */
+.ui.inverted.form input:not([type]),
+.ui.inverted.form input[type="date"],
+.ui.inverted.form input[type="datetime-local"],
+.ui.inverted.form input[type="email"],
+.ui.inverted.form input[type="number"],
+.ui.inverted.form input[type="password"],
+.ui.inverted.form input[type="search"],
+.ui.inverted.form input[type="tel"],
+.ui.inverted.form input[type="time"],
+.ui.inverted.form input[type="text"],
+.ui.inverted.form input[type="file"],
+.ui.inverted.form input[type="url"],
+.ui.inverted.form input[type="checkbox"] {
+  background: @highlight;
+  border-color: @main;
+  color: @text;
+  box-shadow: @main-dark;
+}
+
+
+.ui.inverted.form .ui.selection.dropdown .menu,
+.ui.inverted.form .ui.dropdown .menu,
+.ui.inverted.form .selection.dropdown,
+.ui.inverted.form .field textarea,
+.ui.inverted.form .field select,
+.ui.inverted.form .field input:not([type]),
+.ui.inverted.form .field input[type="date"],
+.ui.inverted.form .field input[type="datetime-local"],
+.ui.inverted.form .field input[type="email"],
+.ui.inverted.form .field input[type="number"],
+.ui.inverted.form .field input[type="password"],
+.ui.inverted.form .field input[type="search"],
+.ui.inverted.form .field input[type="tel"],
+.ui.inverted.form .field input[type="time"],
+.ui.inverted.form .field input[type="text"],
+.ui.inverted.form .field input[type="file"],
+.ui.inverted.form .field input[type="url"],
+.ui.inverted.form textarea,
+.ui.inverted.form select,
+.ui.inverted.form input:not([type]),
+.ui.inverted.form input[type="date"],
+.ui.inverted.form input[type="datetime-local"],
+.ui.inverted.form input[type="email"],
+.ui.inverted.form input[type="number"],
+.ui.inverted.form input[type="password"],
+.ui.inverted.form input[type="search"],
+.ui.inverted.form input[type="tel"],
+.ui.inverted.form input[type="time"],
+.ui.inverted.form input[type="text"],
+.ui.inverted.form input[type="file"],
+.ui.inverted.form input[type="url"] {
+  background: @highlight;
+  border-color: @main;
+  color: @text;
+  box-shadow: @main-dark;
+}
+
+
+
+.ui.dropdown .menu .selected.item, .ui.dropdown.selected {
+    background: #222222;
+    color: #ffffff;
+}
+
+.ui.selection.dropdown .menu>.item {
+    border-top: 1px solid green;
+  }

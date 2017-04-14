@@ -1,0 +1,9 @@
+/*******************************
+        Site Overrides
+*******************************/
+
+.ui.inverted.message,
+.ui.black.message {
+  background-color: @highlight;
+  color: @text;
+}

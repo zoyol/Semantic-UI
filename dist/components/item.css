@@ -481,6 +481,38 @@
 
 
 /*******************************
-    User Variable Overrides
+User Variable Overrides
 *******************************/
 
+
+/*--------------
+Content
+---------------*/
+
+.ui.inverted.items > .item > .content > .header {
+  color: #c4c7ca;
+}
+
+/*-------------------
+Divided
+--------------------*/
+
+.ui.inverted.divided.items > .item {
+  border-top: 2px solid #212931;
+  padding: 1em;
+  background-color: #3c464f;
+}
+.ui.inverted.divided.items > .item:first-child {
+  padding-top: 1em !important;
+}
+.ui.divided.items > .item:last-child {
+  padding-bottom: 1em !important;
+}
+
+/*--------------
+Description
+---------------*/
+
+.ui.inverted.items > .item > .content > .description {
+  color: #ffffff;
+}
