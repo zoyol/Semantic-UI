@@ -13688,6 +13688,23 @@ a.ui.basic.label:hover {
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.inverted.label {
+  background: #6a7277;
+  border: 1px solid #2b3640;
+  color: #ffffff;
+  box-shadow: #212931;
+}
+
+/* Link */
+
+a.ui.inverted.label:hover {
+  text-decoration: none;
+  background: none #ffffff;
+  color: #1e70bf;
+  box-shadow: 1px solid rgba(34, 36, 38, 0.15);
+  box-shadow: none;
+}
 /*!
  * # Semantic UI 2.2.10 - List
  * http://github.com/semantic-org/semantic-ui/
@@ -18515,11 +18532,6 @@ ol.ui.horizontal.list li:before,
   box-shadow: #212931;
 }
 
-.ui.inverted.form .ui.selection.dropdown .menu,
-.ui.inverted.form .ui.dropdown .menu,
-.ui.inverted.form .selection.dropdown,
-.ui.inverted.form .field textarea,
-.ui.inverted.form .field select,
 .ui.inverted.form .field input:not([type]),
 .ui.inverted.form .field input[type="date"],
 .ui.inverted.form .field input[type="datetime-local"],
@@ -27449,17 +27461,17 @@ Divided
 --------------------*/
 
 .ui.inverted.divided.items > .item {
-  border-top: 2px solid #212931;
-  padding: 1em;
-  background-color: #3c464f;
+  margin-top: 10px;
+  padding: 2em 1em;
+  background-color: #2b3640;
 }
 
 .ui.inverted.divided.items > .item:first-child {
-  padding-top: 1em !important;
+  padding-top: 2em !important;
 }
 
 .ui.divided.items > .item:last-child {
-  padding-bottom: 1em !important;
+  padding-bottom: 2em !important;
 }
 
 /*--------------
@@ -27468,6 +27480,58 @@ Description
 
 .ui.inverted.items > .item > .content > .description {
   color: #ffffff;
+}
+
+/*--------------
+Colored
+---------------*/
+
+.ui.inverted.divided.items > .red.item {
+  border-left: 2px solid #DB2828;
+}
+
+.ui.inverted.divided.items > .orange.item {
+  border-left: 2px solid #F2711C;
+}
+
+.ui.inverted.divided.items > .yellow.item {
+  border-left: 2px solid #F5AD44;
+}
+
+.ui.inverted.divided.items > .olive.item {
+  border-left: 2px solid #B5CC18;
+}
+
+.ui.inverted.divided.items > .green.item {
+  border-left: 2px solid #5EA12E;
+}
+
+.ui.inverted.divided.items > .teal.item {
+  border-left: 2px solid #00B5AD;
+}
+
+.ui.inverted.divided.items > .blue.item {
+  border-left: 2px solid #2185D0;
+}
+
+.ui.inverted.divided.items > .violet.item {
+  border-left: 2px solid #6435C9;
+}
+
+.ui.inverted.divided.items > .purple.item {
+  border-left: 2px solid #A333C8;
+}
+
+.ui.inverted.divided.items > .pink.item {
+  border-left: 2px solid #E03997;
+}
+
+.ui.inverted.divided.items > .brown.item {
+  border-left: 2px solid #A5673F;
+}
+
+.ui.inverted.divided.items > .grey.item {
+  border-left: 2px solid #767676;
 }
 /*!
  * # Semantic UI 2.2.10 - Statistic
@@ -29035,6 +29099,71 @@ Description
 /*******************************
          Site Overrides
 *******************************/
+
+/*--------------
+     Toggle
+---------------*/
+
+/* Label */
+
+.ui.inverted.toggle.checkbox .box,
+.ui.inverted.toggle.checkbox label {
+  color: #6a7277;
+}
+
+/* Switch */
+
+.ui.inverted.toggle.checkbox .box:before,
+.ui.inverted.toggle.checkbox label:before {
+  background: #6a7277;
+  box-shadow: #212931;
+}
+
+/* Handle */
+
+.ui.inverted.toggle.checkbox .box:after,
+.ui.inverted.toggle.checkbox label:after {
+  background: #ffffff;
+  box-shadow: #212931;
+}
+
+/* Focus */
+
+.ui.inverted.toggle.checkbox input:focus ~ .box:before,
+.ui.inverted.toggle.checkbox input:focus ~ label:before {
+  background-color: #6a7277;
+}
+
+/* Hover */
+
+.ui.inverted.toggle.checkbox .box:hover::before,
+.ui.inverted.toggle.checkbox label:hover::before {
+  background-color: #6a7277;
+}
+
+/* Active */
+
+.ui.inverted.toggle.checkbox input:checked ~ .box,
+.ui.inverted.toggle.checkbox input:checked ~ label {
+  color: #c4c7ca !important;
+}
+
+.ui.inverted.toggle.checkbox input:checked ~ .box:before,
+.ui.inverted.toggle.checkbox input:checked ~ label:before {
+  background-color: #5EA12E !important;
+}
+
+/* Active Focus */
+
+.ui.inverted.toggle.checkbox input:focus:checked ~ .box,
+.ui.inverted.toggle.checkbox input:focus:checked ~ label {
+  color: #6a7277 !important;
+}
+
+.ui.inverted.toggle.checkbox input:focus:checked ~ .box:before,
+.ui.inverted.toggle.checkbox input:focus:checked ~ label:before {
+  background-color: #6a7277 !important;
+}
 /*!
  * # Semantic UI 2.2.10 - Dimmer
  * http://github.com/semantic-org/semantic-ui/
@@ -30819,6 +30948,19 @@ select.ui.dropdown {
 /*******************************
         User Overrides
 *******************************/
+
+/*--------------
+    Selection
+---------------*/
+
+/* Displays like a select box */
+
+.ui.selection.dropdown {
+  background: #3c464f;
+  color: #c4c7ca;
+  box-shadow: #212931;
+  border: #6a7277;
+}
 /*!
  * # Semantic UI 2.2.10 - Video
  * http://github.com/semantic-org/semantic-ui/

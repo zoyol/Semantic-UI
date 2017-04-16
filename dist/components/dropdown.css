@@ -1420,6 +1420,7 @@ select.ui.dropdown {
 .ui.vertical.menu .dropdown.item > .dropdown.icon:before {
   content: "\f0da" /*rtl:"\f0d9"*/;
 }
+
 /* Icons for Reference
 .dropdown.down.icon {
   content: "\f0d7";
@@ -1440,3 +1441,15 @@ select.ui.dropdown {
         User Overrides
 *******************************/
 
+
+/*--------------
+    Selection
+---------------*/
+
+/* Displays like a select box */
+.ui.selection.dropdown {
+  background: #3c464f;
+  color: #c4c7ca;
+  box-shadow: #212931;
+  border: #6a7277;
+}

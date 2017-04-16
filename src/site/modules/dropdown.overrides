@@ -1,3 +1,15 @@
 /*******************************
         User Overrides
 *******************************/
+
+/*--------------
+    Selection
+---------------*/
+
+/* Displays like a select box */
+.ui.selection.dropdown {
+  background: @highlight;
+  color: @text;
+  box-shadow: @main-dark;
+  border: @muted-text;
+}

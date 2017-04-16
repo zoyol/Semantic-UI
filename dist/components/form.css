@@ -1103,11 +1103,6 @@
   color: #c4c7ca;
   box-shadow: #212931;
 }
-.ui.inverted.form .ui.selection.dropdown .menu,
-.ui.inverted.form .ui.dropdown .menu,
-.ui.inverted.form .selection.dropdown,
-.ui.inverted.form .field textarea,
-.ui.inverted.form .field select,
 .ui.inverted.form .field input:not([type]),
 .ui.inverted.form .field input[type="date"],
 .ui.inverted.form .field input[type="datetime-local"],

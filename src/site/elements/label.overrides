@@ -1,3 +1,19 @@
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.inverted.label {
+  background: @muted-text;
+  border: 1px solid @main;
+  color: @white;
+  box-shadow: @main-dark;
+}
+
+/* Link */
+a.ui.inverted.label:hover {
+  text-decoration: none;
+  background: @basicHoverBackground;
+  color: @basicHoverColor;
+  box-shadow: @basicHoverBorder;
+  box-shadow: @basicHoverBoxShadow;
+}

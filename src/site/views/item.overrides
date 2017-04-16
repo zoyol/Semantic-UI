@@ -16,15 +16,15 @@ Divided
 --------------------*/
 
 .ui.inverted.divided.items > .item {
-  border-top: 2px solid @main-dark;
-  padding: 1em;
-  background-color: @highlight;
+  margin-top: 10px;
+  padding: 2em 1em;
+  background-color: @main; 
 }
 .ui.inverted.divided.items > .item:first-child {
-  padding-top: 1em !important;
+  padding-top: 2em !important;
 }
 .ui.divided.items > .item:last-child {
-  padding-bottom: 1em !important;
+  padding-bottom: 2em !important;
 }
 
 
@@ -34,4 +34,23 @@ Description
 
 .ui.inverted.items > .item > .content > .description {
   color: @white;
+}
+
+
+/*--------------
+Colored
+---------------*/
+.ui.inverted.divided.items {
+& > .red.item { border-left: 2px solid @red; }
+& > .orange.item { border-left: 2px solid @orange; }
+& > .yellow.item { border-left: 2px solid @yellow; }
+& > .olive.item { border-left: 2px solid @olive; }
+& > .green.item { border-left: 2px solid @green; }
+& > .teal.item { border-left: 2px solid @teal; }
+& > .blue.item { border-left: 2px solid @blue; }
+& > .violet.item { border-left: 2px solid @violet; }
+& > .purple.item { border-left: 2px solid @purple; }
+& > .pink.item { border-left: 2px solid @pink; }
+& > .brown.item { border-left: 2px solid @brown; }
+& > .grey.item { border-left: 2px solid @grey; }
 }
