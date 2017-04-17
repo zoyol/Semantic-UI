@@ -796,3 +796,8 @@
          Site Overrides
 *******************************/
 
+
+/* Attached */
+.ui.inverted.attached.segment {
+  border-color: #3c464f;
+}

@@ -1,3 +1,8 @@
 /*******************************
          Site Overrides
 *******************************/
+
+/* Attached */
+.ui.inverted.attached.segment {
+  border-color: @highlight;
+}

@@ -2,6 +2,182 @@
          Site Overrides
 *******************************/
 
+
+.ui.inverted.checkbox .box:before,
+.ui.inverted.checkbox label:before {
+  background: @highlight;
+  border: 1px solid @muted-text;
+}
+
+
+/*--------------
+    Checkmark
+---------------*/
+
+.ui.inverted.checkbox .box:after,
+.ui.inverted.checkbox label:after {
+  color: @green;
+}
+
+
+/*******************************
+           States
+*******************************/
+
+/*--------------
+      Hover
+---------------*/
+
+.ui.inverted.checkbox .box:hover::before,
+.ui.inverted.checkbox label:hover::before {
+  background: @highlight;
+  border-color: @text;
+}
+.ui.inverted.checkbox label:hover,
+.ui.inverted.checkbox + label:hover {
+  color: @text;
+}
+
+/*--------------
+      Down
+---------------*/
+
+.ui.inverted.checkbox .box:active::before,
+.ui.inverted.checkbox label:active::before {
+  background: @highlight;
+  border-color: @text;
+}
+.ui.inverted.checkbox .box:active::after,
+.ui.inverted.checkbox label:active::after {
+  color: @green;
+}
+
+
+/*--------------
+     Focus
+---------------*/
+
+.ui.inverted.checkbox input:focus ~ .box:before,
+.ui.inverted.checkbox input:focus ~ label:before {
+  background: @highlight;
+  border-color: @text;
+}
+.ui.inverted.checkbox input:focus ~ .box:after,
+.ui.inverted.checkbox input:focus ~ label:after {
+  color: @green;
+}
+
+
+/*--------------
+     Active
+---------------*/
+
+.ui.inverted.checkbox input:checked ~ .box:before,
+.ui.inverted.checkbox input:checked ~ label:before {
+  background: @highlight;
+  border-color: @muted-text;
+}
+.ui.inverted.checkbox input:checked ~ .box:after,
+.ui.inverted.checkbox input:checked ~ label:after {
+  color: @green;
+}
+
+/*--------------
+  Indeterminate
+---------------*/
+
+.ui.inverted.checkbox input:not([type=radio]):indeterminate ~ .box:before,
+.ui.inverted.checkbox input:not([type=radio]):indeterminate ~ label:before {
+  background: @highlight;
+  border-color: @text;
+}
+.ui.inverted.checkbox input:not([type=radio]):indeterminate ~ .box:after,
+.ui.inverted.checkbox input:not([type=radio]):indeterminate ~ label:after {
+  color: @green;
+}
+
+/*--------------
+  Active Focus
+---------------*/
+
+.ui.inverted.checkbox input:not([type=radio]):indeterminate:focus ~ .box:before,
+.ui.inverted.checkbox input:not([type=radio]):indeterminate:focus ~ label:before,
+.ui.inverted.checkbox input:checked:focus ~ .box:before,
+.ui.inverted.checkbox input:checked:focus ~ label:before  {
+  background: @highlight;
+  border-color: @green;
+}
+.ui.inverted.checkbox input:not([type=radio]):indeterminate:focus ~ .box:after,
+.ui.inverted.checkbox input:not([type=radio]):indeterminate:focus ~ label:after,
+.ui.inverted.checkbox input:checked:focus ~ .box:after,
+.ui.inverted.checkbox input:checked:focus ~ label:after {
+  color: @green;
+}
+
+
+/*--------------
+     Disabled
+---------------*/
+
+.ui.inverted.disabled.checkbox .box:after,
+.ui.inverted.disabled.checkbox label,
+.ui.inverted.inverted.checkbox input[disabled] ~ .box:after,
+.ui.inverted.inverted.checkbox input[disabled] ~ label {
+  opacity: @disabledCheckboxOpacity;
+  color: @disabledCheckboxLabelColor;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------
+     Radio
+---------------*/
+
+/* Radio Checkbox */
+.ui.inverted.radio.checkbox .box:after,
+.ui.inverted.radio.checkbox label:after {
+  background-color: @green;
+}
+
+/* Active */
+.ui.inverted.radio.checkbox input:checked ~ .box:before,
+.ui.inverted.radio.checkbox input:checked ~ label:before {
+  background-color: @highlight;
+}
+.ui.inverted.radio.checkbox input:checked ~ .box:after,
+.ui.inverted.radio.checkbox input:checked ~ label:after {
+  background-color: @green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------
      Toggle
 ---------------*/
