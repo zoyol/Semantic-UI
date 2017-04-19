@@ -969,10 +969,9 @@ a.ui.card:hover,
 
 .ui.inverted.card,
 .ui.inverted.cards > .card {
-  background: #2b3640;
+  background: rgba(0, 0, 0, 0.15);
   color: #c4c7ca;
-  border: #3c464f;
-  box-shadow: 0 1px 3px 0 #3c464f, 0 0 0 1px #3c464f;
+  box-shadow: 0 1px 3px 0 #2b3640, 0 0 0 1px #2b3640;
 }
 
 /*--------------
@@ -997,6 +996,15 @@ a.ui.card:hover,
 .ui.inverted.cards > .card .meta,
 .ui.inverted.card .meta {
   color: #c4c7ca;
+}
+
+/*--------------
+   Description
+---------------*/
+
+.ui.cards > .card > .content > .description,
+.ui.card > .content > .description {
+  color: #ffffff;
 }
 
 /*----------------

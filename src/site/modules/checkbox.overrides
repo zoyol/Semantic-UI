@@ -6,7 +6,7 @@
 .ui.inverted.checkbox .box:before,
 .ui.inverted.checkbox label:before {
   background: @highlight;
-  border: 1px solid @muted-text;
+  border: 1px solid @highlight;
 }
 
 

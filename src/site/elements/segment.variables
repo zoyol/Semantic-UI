@@ -4,7 +4,7 @@
 
 
 /***** Inverted Segment Background Color *****/
-@invertedBackground:@main;
+@invertedBackground:rgba(0, 0, 0, 0.15);
 
 /***** Inverted Segment Text Color *****/
 @invertedTextColor:@text;

@@ -659,7 +659,7 @@
 }
 .ui.inverted.segment,
 .ui.primary.inverted.segment {
-  background: #2b3640;
+  background: rgba(0, 0, 0, 0.15);
   color: #c4c7ca;
 }
 
