@@ -499,14 +499,14 @@ Divided
 
 .ui.inverted.divided.items > .item {
   margin-top: 10px;
-  padding: 2em 1em;
+  padding: 1em;
   background-color: #2b3640;
 }
 .ui.inverted.divided.items > .item:first-child {
-  padding-top: 2em !important;
+  padding-top: 1em !important;
 }
 .ui.divided.items > .item:last-child {
-  padding-bottom: 2em !important;
+  padding-bottom: 1em !important;
 }
 
 /*--------------
@@ -521,39 +521,39 @@ Description
 Colored
 ---------------*/
 
-.ui.inverted.divided.items > .red.item {
+.ui.inverted.km.divided.items > .red.item {
   border-left: 2px solid #DB2828;
 }
-.ui.inverted.divided.items > .orange.item {
+.ui.inverted.km.divided.items > .orange.item {
   border-left: 2px solid #F2711C;
 }
-.ui.inverted.divided.items > .yellow.item {
+.ui.inverted.km.divided.items > .yellow.item {
   border-left: 2px solid #F5AD44;
 }
-.ui.inverted.divided.items > .olive.item {
+.ui.inverted.km.divided.items > .olive.item {
   border-left: 2px solid #B5CC18;
 }
-.ui.inverted.divided.items > .green.item {
+.ui.inverted.km.divided.items > .green.item {
   border-left: 2px solid #5EA12E;
 }
-.ui.inverted.divided.items > .teal.item {
+.ui.inverted.km.divided.items > .teal.item {
   border-left: 2px solid #00B5AD;
 }
-.ui.inverted.divided.items > .blue.item {
+.ui.inverted.km.divided.items > .blue.item {
   border-left: 2px solid #2185D0;
 }
-.ui.inverted.divided.items > .violet.item {
+.ui.inverted.km.divided.items > .violet.item {
   border-left: 2px solid #6435C9;
 }
-.ui.inverted.divided.items > .purple.item {
+.ui.inverted.km.divided.items > .purple.item {
   border-left: 2px solid #A333C8;
 }
-.ui.inverted.divided.items > .pink.item {
+.ui.inverted.km.divided.items > .pink.item {
   border-left: 2px solid #E03997;
 }
-.ui.inverted.divided.items > .brown.item {
+.ui.inverted.km.divided.items > .brown.item {
   border-left: 2px solid #A5673F;
 }
-.ui.inverted.divided.items > .grey.item {
+.ui.inverted.km.divided.items > .grey.item {
   border-left: 2px solid #767676;
 }

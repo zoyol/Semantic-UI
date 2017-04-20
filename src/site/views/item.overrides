@@ -17,14 +17,14 @@ Divided
 
 .ui.inverted.divided.items > .item {
   margin-top: 10px;
-  padding: 2em 1em;
-  background-color: @main; 
+  padding: 1em;
+  background-color: @main;
 }
 .ui.inverted.divided.items > .item:first-child {
-  padding-top: 2em !important;
+  padding-top: 1em !important;
 }
 .ui.divided.items > .item:last-child {
-  padding-bottom: 2em !important;
+  padding-bottom: 1em !important;
 }
 
 
@@ -40,7 +40,7 @@ Description
 /*--------------
 Colored
 ---------------*/
-.ui.inverted.divided.items {
+.ui.inverted.km.divided.items {
 & > .red.item { border-left: 2px solid @red; }
 & > .orange.item { border-left: 2px solid @orange; }
 & > .yellow.item { border-left: 2px solid @yellow; }

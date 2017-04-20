@@ -982,7 +982,7 @@ a.ui.card:hover,
 /* Header */
 .ui.inverted.cards > .card > .content > a.header,
 .ui.inverted.card > .content > a.header {
-  color: #c7eab0;
+  color: #5EA12E;
 }
 .ui.inverted.cards > .card > .content > a.header:hover,
 .ui.inverted.card > .content > a.header:hover {
@@ -1014,7 +1014,7 @@ a.ui.card:hover,
 .ui.inverted.cards > .card > .extra,
 .ui.inverted.card > .extra {
   border-top: #3c464f !important;
-  background: #3c464f;
+  background: rgba(0, 0, 0, 0.15);
   color: #ffffff;
 }
 .ui.inverted.cards > .card > .extra a:not(.ui),
