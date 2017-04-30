@@ -27488,6 +27488,26 @@ Divided
   padding-bottom: 1em !important;
 }
 
+/*-------------------
+Divided Basic
+--------------------*/
+
+.ui.inverted.divided.basic.items > .item {
+  border-top: 1px solid #3c464f;
+  margin-top: 0;
+  padding: 1em;
+  background-color: #212931;
+}
+
+.ui.inverted.divided.basic.items > .item:first-child {
+  border-top: none;
+  padding-top: 1em !important;
+}
+
+.ui.inverted.divided.basic.items > .item:last-child {
+  padding-bottom: 1em !important;
+}
+
 /*--------------
 Description
 ---------------*/
