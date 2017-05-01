@@ -62,3 +62,13 @@
 .ui.inverted.card > .extra a:not(.ui):hover {
   color: @white;
 }
+
+
+/*--------------
+     Content
+---------------*/
+
+.ui.inverted.cards > .card > .content > .header,
+.ui.inverted.card > .content > .header {
+  color: @text;
+}

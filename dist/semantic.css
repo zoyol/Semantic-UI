@@ -26342,6 +26342,15 @@ a.ui.card:hover,
 .ui.inverted.card > .extra a:not(.ui):hover {
   color: #ffffff;
 }
+
+/*--------------
+     Content
+---------------*/
+
+.ui.inverted.cards > .card > .content > .header,
+.ui.inverted.card > .content > .header {
+  color: #c4c7ca;
+}
 /*!
  * # Semantic UI 2.2.10 - Comment
  * http://github.com/semantic-org/semantic-ui/
