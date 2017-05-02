@@ -1,3 +1,17 @@
 /*******************************
          Site Overrides
 *******************************/
+
+/* KM */
+.ui.kilomodo.button {
+  background-color: @main;
+  color: @text;
+}
+.ui.kilomodo.button:hover {
+  background-color: @highlight;
+  color: @white;
+}
+.ui.kilomodo.button:active {
+  background-color: @highlight;
+  color: @white;
+}

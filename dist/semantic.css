@@ -4613,6 +4613,23 @@ input::selection {
 /*******************************
          Site Overrides
 *******************************/
+
+/* KM */
+
+.ui.kilomodo.button {
+  background-color: #2b3640;
+  color: #c4c7ca;
+}
+
+.ui.kilomodo.button:hover {
+  background-color: #3c464f;
+  color: #ffffff;
+}
+
+.ui.kilomodo.button:active {
+  background-color: #3c464f;
+  color: #ffffff;
+}
 /*!
  * # Semantic UI 2.2.10 - Container
  * http://github.com/semantic-org/semantic-ui/
