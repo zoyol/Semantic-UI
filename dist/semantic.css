@@ -27534,6 +27534,23 @@ Divided Basic
   padding-bottom: 1em !important;
 }
 
+/*-------------------
+Cozy
+--------------------*/
+
+.ui.inverted.cozy.items > .item {
+  margin-top: 5px;
+  padding: 0.25em;
+}
+
+.ui.inverted.cozy.items > .item:first-child {
+  padding-top: 0.25em !important;
+}
+
+.ui.inverted.cozy.items > .item:last-child {
+  padding-bottom: 0.25em !important;
+}
+
 /*--------------
 Description
 ---------------*/
