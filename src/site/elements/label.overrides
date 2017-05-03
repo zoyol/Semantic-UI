@@ -17,3 +17,15 @@ a.ui.inverted.label:hover {
   box-shadow: @basicHoverBorder;
   box-shadow: @basicHoverBoxShadow;
 }
+
+
+/*-------------------
+        Basic Inverted
+--------------------*/
+
+.ui.basic.inverted.label {
+  background: @main-dark;
+  border: @main-dark;
+  color: @muted-text !important;
+  box-shadow: @main-dark;
+}

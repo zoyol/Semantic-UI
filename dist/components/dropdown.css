@@ -1443,6 +1443,27 @@ select.ui.dropdown {
 
 
 /*--------------
+      Menu
+---------------*/
+
+.ui.dropdown .menu {
+  background: #212931;
+  box-shadow: #212931;
+  border: #212931;
+}
+
+/*--------------
+    Menu Item
+---------------*/
+
+.ui.dropdown .menu > .item {
+  border: 1px solid #2b3640;
+  border-top: 1px solid #2b3640;
+  color: #ffffff;
+  box-shadow: #212931;
+}
+
+/*--------------
     Selection
 ---------------*/
 

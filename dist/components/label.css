@@ -1320,3 +1320,14 @@ a.ui.inverted.label:hover {
   box-shadow: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: none;
 }
+
+/*-------------------
+        Basic Inverted
+--------------------*/
+
+.ui.basic.inverted.label {
+  background: #212931;
+  border: #212931;
+  color: #6a7277 !important;
+  box-shadow: #212931;
+}

@@ -13722,6 +13722,17 @@ a.ui.inverted.label:hover {
   box-shadow: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: none;
 }
+
+/*-------------------
+        Basic Inverted
+--------------------*/
+
+.ui.basic.inverted.label {
+  background: #212931;
+  border: #212931;
+  color: #6a7277 !important;
+  box-shadow: #212931;
+}
 /*!
  * # Semantic UI 2.2.10 - List
  * http://github.com/semantic-org/semantic-ui/
@@ -31173,6 +31184,27 @@ select.ui.dropdown {
 /*******************************
         User Overrides
 *******************************/
+
+/*--------------
+      Menu
+---------------*/
+
+.ui.dropdown .menu {
+  background: #212931;
+  box-shadow: #212931;
+  border: #212931;
+}
+
+/*--------------
+    Menu Item
+---------------*/
+
+.ui.dropdown .menu > .item {
+  border: 1px solid #2b3640;
+  border-top: 1px solid #2b3640;
+  color: #ffffff;
+  box-shadow: #212931;
+}
 
 /*--------------
     Selection

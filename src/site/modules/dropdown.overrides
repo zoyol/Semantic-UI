@@ -3,6 +3,31 @@
 *******************************/
 
 /*--------------
+      Menu
+---------------*/
+
+.ui.dropdown .menu {
+  background: @main-dark;
+  box-shadow: @main-dark;
+  border: @main-dark;
+}
+
+
+
+/*--------------
+    Menu Item
+---------------*/
+
+.ui.dropdown .menu > .item {
+  border: 1px solid @main;
+  border-top: 1px solid @main;
+  color: @white;
+  box-shadow: @main-dark;
+}
+
+
+
+/*--------------
     Selection
 ---------------*/
 
