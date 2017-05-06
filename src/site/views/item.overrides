@@ -56,7 +56,7 @@ Cozy
   padding: 0.25em;
 }
 .ui.inverted.cozy.items > .item:first-child {
-  padding-top: 0.25em !important;
+  padding-top: 0.5em !important;
 }
 .ui.inverted.cozy.items > .item:last-child {
   padding-bottom: 0.25em !important;

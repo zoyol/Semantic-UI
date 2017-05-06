@@ -4005,7 +4005,7 @@ input::selection {
 
 .ui.yellow.buttons .button,
 .ui.yellow.button {
-  background-color: #F5AD44;
+  background-color: #FFBD00;
   color: #ffffff;
   text-shadow: none;
   background-image: none;
@@ -4017,21 +4017,21 @@ input::selection {
 
 .ui.yellow.buttons .button:hover,
 .ui.yellow.button:hover {
-  background-color: #fea422;
+  background-color: #e6aa00;
   color: #ffffff;
   text-shadow: none;
 }
 
 .ui.yellow.buttons .button:focus,
 .ui.yellow.button:focus {
-  background-color: #ff9e11;
+  background-color: #d69f00;
   color: #ffffff;
   text-shadow: none;
 }
 
 .ui.yellow.buttons .button:active,
 .ui.yellow.button:active {
-  background-color: #f29814;
+  background-color: #cc9700;
   color: #ffffff;
   text-shadow: none;
 }
@@ -4040,7 +4040,7 @@ input::selection {
 .ui.yellow.buttons .active.button:active,
 .ui.yellow.active.button,
 .ui.yellow.button .active.button:active {
-  background-color: #ffa421;
+  background-color: #e6aa00;
   color: #ffffff;
   text-shadow: none;
 }
@@ -4049,35 +4049,35 @@ input::selection {
 
 .ui.basic.yellow.buttons .button,
 .ui.basic.yellow.button {
-  box-shadow: 0px 0px 0px 1px #F5AD44 inset !important;
-  color: #F5AD44 !important;
+  box-shadow: 0px 0px 0px 1px #FFBD00 inset !important;
+  color: #FFBD00 !important;
 }
 
 .ui.basic.yellow.buttons .button:hover,
 .ui.basic.yellow.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #fea422 inset !important;
-  color: #fea422 !important;
+  box-shadow: 0px 0px 0px 1px #e6aa00 inset !important;
+  color: #e6aa00 !important;
 }
 
 .ui.basic.yellow.buttons .button:focus,
 .ui.basic.yellow.button:focus {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #ff9e11 inset !important;
-  color: #fea422 !important;
+  box-shadow: 0px 0px 0px 1px #d69f00 inset !important;
+  color: #e6aa00 !important;
 }
 
 .ui.basic.yellow.buttons .active.button,
 .ui.basic.yellow.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #ffa421 inset !important;
-  color: #f29814 !important;
+  box-shadow: 0px 0px 0px 1px #e6aa00 inset !important;
+  color: #cc9700 !important;
 }
 
 .ui.basic.yellow.buttons .button:active,
 .ui.basic.yellow.button:active {
-  box-shadow: 0px 0px 0px 1px #f29814 inset !important;
-  color: #f29814 !important;
+  box-shadow: 0px 0px 0px 1px #cc9700 inset !important;
+  color: #cc9700 !important;
 }
 
 .ui.buttons:not(.vertical) > .basic.yellow.button:not(:first-child) {
@@ -4627,8 +4627,33 @@ input::selection {
 }
 
 .ui.kilomodo.button:active {
-  background-color: #3c464f;
+  background-color: #2b3640;
   color: #ffffff;
+}
+
+/*-------------------
+       Inverted
+--------------------*/
+
+.ui.basic.inverted.button {
+  box-shadow: 0px 0px 0px 1px #6a7277 inset !important;
+  background: #3c464f;
+  color: #ffffff;
+}
+
+.ui.basic.inverted.buttons .button,
+.ui.basic.inverted.button,
+.ui.basic.inverted.buttons .button:hover,
+.ui.basic.inverted.button:hover,
+.ui.basic.inverted.buttons .button:focus,
+.ui.basic.inverted.button:focus,
+.ui.basic.inverted.buttons .button:active,
+.ui.basic.inverted.button:active,
+.ui.basic.inverted.buttons .active.button,
+.ui.basic.inverted.active.button,
+.ui.basic.inverted.buttons .active.button:hover,
+.ui.basic.inverted.active.button:hover {
+  box-shadow: 0px 0px 0px 1px #6a7277 inset !important;
 }
 /*!
  * # Semantic UI 2.2.10 - Container
@@ -6760,15 +6785,15 @@ a.ui.inverted.olive.header:hover {
 /*--- Yellow ---*/
 
 .ui.yellow.header {
-  color: #F5AD44 !important;
+  color: #FFBD00 !important;
 }
 
 a.ui.yellow.header:hover {
-  color: #fea422 !important;
+  color: #e6aa00 !important;
 }
 
 .ui.yellow.dividing.header {
-  border-bottom: 2px solid #F5AD44;
+  border-bottom: 2px solid #FFBD00;
 }
 
 /* Inverted */
@@ -7410,7 +7435,7 @@ i.inverted.circular.orange.icon {
 /* Yellow */
 
 i.yellow.icon {
-  color: #F5AD44 !important;
+  color: #FFBD00 !important;
 }
 
 i.inverted.yellow.icon {
@@ -7419,7 +7444,7 @@ i.inverted.yellow.icon {
 
 i.inverted.bordered.yellow.icon,
 i.inverted.circular.yellow.icon {
-  background-color: #F5AD44 !important;
+  background-color: #FFBD00 !important;
   color: #ffffff !important;
 }
 
@@ -12922,8 +12947,8 @@ a.ui.basic.orange.label:hover {
 
 .ui.yellow.labels .label,
 .ui.yellow.label {
-  background-color: #F5AD44 !important;
-  border-color: #F5AD44 !important;
+  background-color: #FFBD00 !important;
+  border-color: #FFBD00 !important;
   color: #ffffff !important;
 }
 
@@ -12931,8 +12956,8 @@ a.ui.basic.orange.label:hover {
 
 .ui.yellow.labels .label:hover,
 a.ui.yellow.label:hover {
-  background-color: #fea422 !important;
-  border-color: #fea422 !important;
+  background-color: #e6aa00 !important;
+  border-color: #e6aa00 !important;
   color: #ffffff !important;
 }
 
@@ -12946,22 +12971,22 @@ a.ui.yellow.label:hover {
 /* Ribbon */
 
 .ui.yellow.ribbon.label {
-  border-color: #f29814 !important;
+  border-color: #cc9700 !important;
 }
 
 /* Basic */
 
 .ui.basic.yellow.label {
   background-color: #ffffff !important;
-  color: #F5AD44 !important;
-  border-color: #F5AD44 !important;
+  color: #FFBD00 !important;
+  border-color: #FFBD00 !important;
 }
 
 .ui.basic.yellow.labels a.label:hover,
 a.ui.basic.yellow.label:hover {
   background-color: #ffffff !important;
-  color: #fea422 !important;
-  border-color: #fea422 !important;
+  color: #e6aa00 !important;
+  border-color: #e6aa00 !important;
 }
 
 /*--- Olive ---*/
@@ -16225,11 +16250,11 @@ ol.ui.horizontal.list li:before,
 /* Yellow */
 
 .ui.yellow.segment:not(.inverted) {
-  border-top: 2px solid #F5AD44;
+  border-top: 2px solid #FFBD00;
 }
 
 .ui.inverted.yellow.segment {
-  background-color: #F5AD44 !important;
+  background-color: #FFBD00 !important;
   color: #ffffff !important;
 }
 
@@ -20144,7 +20169,7 @@ ol.ui.horizontal.list li:before,
 .ui.grid > .yellow.row,
 .ui.grid > .yellow.column,
 .ui.grid > .row > .yellow.column {
-  background-color: #F5AD44 !important;
+  background-color: #FFBD00 !important;
   color: #ffffff;
 }
 
@@ -22296,8 +22321,8 @@ Floated Menu / Item
 
 .ui.menu .yellow.active.item,
 .ui.yellow.menu .active.item {
-  border-color: #F5AD44 !important;
-  color: #F5AD44 !important;
+  border-color: #FFBD00 !important;
+  color: #FFBD00 !important;
 }
 
 .ui.menu .olive.active.item,
@@ -22518,7 +22543,7 @@ Floated Menu / Item
 
 .ui.inverted.menu .yellow.active.item,
 .ui.inverted.yellow.menu {
-  background-color: #F5AD44;
+  background-color: #FFBD00;
 }
 
 .ui.inverted.yellow.menu .item:before {
@@ -24375,11 +24400,11 @@ Floated Menu / Item
 /* Yellow */
 
 .ui.yellow.table {
-  border-top: 0.2em solid #F5AD44;
+  border-top: 0.2em solid #FFBD00;
 }
 
 .ui.inverted.yellow.table {
-  background-color: #F5AD44 !important;
+  background-color: #FFBD00 !important;
   color: #ffffff !important;
 }
 
@@ -25794,13 +25819,13 @@ a.ui.card:hover,
 .ui.yellow.cards > .card,
 .ui.cards > .yellow.card,
 .ui.yellow.card {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #F5AD44, 0px 1px 3px 0px #D4D4D5;
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #FFBD00, 0px 1px 3px 0px #D4D4D5;
 }
 
 .ui.yellow.cards > .card:hover,
 .ui.cards > .yellow.card:hover,
 .ui.yellow.card:hover {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #fea422, 0px 1px 3px 0px #BCBDBD;
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #e6aa00, 0px 1px 3px 0px #BCBDBD;
 }
 
 /* Olive */
@@ -27555,7 +27580,7 @@ Cozy
 }
 
 .ui.inverted.cozy.items > .item:first-child {
-  padding-top: 0.25em !important;
+  padding-top: 0.5em !important;
 }
 
 .ui.inverted.cozy.items > .item:last-child {
@@ -27583,7 +27608,7 @@ Colored
 }
 
 .ui.inverted.km.divided.items > .yellow.item {
-  border-left: 2px solid #F5AD44;
+  border-left: 2px solid #FFBD00;
 }
 
 .ui.inverted.km.divided.items > .olive.item {
@@ -27983,7 +28008,7 @@ Colored
 .ui.yellow.statistics .statistic > .value,
 .ui.statistics .yellow.statistic > .value,
 .ui.yellow.statistic > .value {
-  color: #F5AD44;
+  color: #FFBD00;
 }
 
 .ui.olive.statistics .statistic > .value,
@@ -33313,7 +33338,7 @@ a.ui.nag {
 /* Yellow */
 
 .ui.yellow.progress .bar {
-  background-color: #F5AD44;
+  background-color: #FFBD00;
 }
 
 .ui.yellow.inverted.progress .bar {

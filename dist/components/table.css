@@ -635,10 +635,10 @@
 
 /* Yellow */
 .ui.yellow.table {
-  border-top: 0.2em solid #F5AD44;
+  border-top: 0.2em solid #FFBD00;
 }
 .ui.inverted.yellow.table {
-  background-color: #F5AD44 !important;
+  background-color: #FFBD00 !important;
   color: #ffffff !important;
 }
 

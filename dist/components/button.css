@@ -2910,7 +2910,7 @@
 
 .ui.yellow.buttons .button,
 .ui.yellow.button {
-  background-color: #F5AD44;
+  background-color: #FFBD00;
   color: #ffffff;
   text-shadow: none;
   background-image: none;
@@ -2920,19 +2920,19 @@
 }
 .ui.yellow.buttons .button:hover,
 .ui.yellow.button:hover {
-  background-color: #fea422;
+  background-color: #e6aa00;
   color: #ffffff;
   text-shadow: none;
 }
 .ui.yellow.buttons .button:focus,
 .ui.yellow.button:focus {
-  background-color: #ff9e11;
+  background-color: #d69f00;
   color: #ffffff;
   text-shadow: none;
 }
 .ui.yellow.buttons .button:active,
 .ui.yellow.button:active {
-  background-color: #f29814;
+  background-color: #cc9700;
   color: #ffffff;
   text-shadow: none;
 }
@@ -2940,7 +2940,7 @@
 .ui.yellow.buttons .active.button:active,
 .ui.yellow.active.button,
 .ui.yellow.button .active.button:active {
-  background-color: #ffa421;
+  background-color: #e6aa00;
   color: #ffffff;
   text-shadow: none;
 }
@@ -2948,31 +2948,31 @@
 /* Basic */
 .ui.basic.yellow.buttons .button,
 .ui.basic.yellow.button {
-  box-shadow: 0px 0px 0px 1px #F5AD44 inset !important;
-  color: #F5AD44 !important;
+  box-shadow: 0px 0px 0px 1px #FFBD00 inset !important;
+  color: #FFBD00 !important;
 }
 .ui.basic.yellow.buttons .button:hover,
 .ui.basic.yellow.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #fea422 inset !important;
-  color: #fea422 !important;
+  box-shadow: 0px 0px 0px 1px #e6aa00 inset !important;
+  color: #e6aa00 !important;
 }
 .ui.basic.yellow.buttons .button:focus,
 .ui.basic.yellow.button:focus {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #ff9e11 inset !important;
-  color: #fea422 !important;
+  box-shadow: 0px 0px 0px 1px #d69f00 inset !important;
+  color: #e6aa00 !important;
 }
 .ui.basic.yellow.buttons .active.button,
 .ui.basic.yellow.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #ffa421 inset !important;
-  color: #f29814 !important;
+  box-shadow: 0px 0px 0px 1px #e6aa00 inset !important;
+  color: #cc9700 !important;
 }
 .ui.basic.yellow.buttons .button:active,
 .ui.basic.yellow.button:active {
-  box-shadow: 0px 0px 0px 1px #f29814 inset !important;
-  color: #f29814 !important;
+  box-shadow: 0px 0px 0px 1px #cc9700 inset !important;
+  color: #cc9700 !important;
 }
 .ui.buttons:not(.vertical) > .basic.yellow.button:not(:first-child) {
   margin-left: -1px;
@@ -3458,6 +3458,30 @@
   color: #ffffff;
 }
 .ui.kilomodo.button:active {
-  background-color: #3c464f;
+  background-color: #2b3640;
   color: #ffffff;
+}
+
+/*-------------------
+       Inverted
+--------------------*/
+
+.ui.basic.inverted.button {
+  box-shadow: 0px 0px 0px 1px #6a7277 inset !important;
+  background: #3c464f;
+  color: #ffffff;
+}
+.ui.basic.inverted.buttons .button,
+.ui.basic.inverted.button,
+.ui.basic.inverted.buttons .button:hover,
+.ui.basic.inverted.button:hover,
+.ui.basic.inverted.buttons .button:focus,
+.ui.basic.inverted.button:focus,
+.ui.basic.inverted.buttons .button:active,
+.ui.basic.inverted.button:active,
+.ui.basic.inverted.buttons .active.button,
+.ui.basic.inverted.active.button,
+.ui.basic.inverted.buttons .active.button:hover,
+.ui.basic.inverted.active.button:hover {
+  box-shadow: 0px 0px 0px 1px #6a7277 inset !important;
 }

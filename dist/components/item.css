@@ -536,7 +536,7 @@ Cozy
   padding: 0.25em;
 }
 .ui.inverted.cozy.items > .item:first-child {
-  padding-top: 0.25em !important;
+  padding-top: 0.5em !important;
 }
 .ui.inverted.cozy.items > .item:last-child {
   padding-bottom: 0.25em !important;
@@ -561,7 +561,7 @@ Colored
   border-left: 2px solid #F2711C;
 }
 .ui.inverted.km.divided.items > .yellow.item {
-  border-left: 2px solid #F5AD44;
+  border-left: 2px solid #FFBD00;
 }
 .ui.inverted.km.divided.items > .olive.item {
   border-left: 2px solid #B5CC18;
