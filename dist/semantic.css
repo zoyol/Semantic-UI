@@ -13755,7 +13755,7 @@ a.ui.inverted.label:hover {
 .ui.basic.inverted.label {
   background: #212931;
   border: #212931;
-  color: #6a7277 !important;
+  color: #c4c7ca !important;
   box-shadow: #212931;
 }
 /*!
@@ -18586,7 +18586,7 @@ ol.ui.horizontal.list li:before,
 .ui.inverted.form input[type="url"],
 .ui.inverted.form input[type="checkbox"] {
   background: #3c464f;
-  border-color: #2b3640;
+  border-color: #3c464f;
   color: #c4c7ca;
   box-shadow: #212931;
 }
@@ -18618,7 +18618,7 @@ ol.ui.horizontal.list li:before,
 .ui.inverted.form input[type="file"],
 .ui.inverted.form input[type="url"] {
   background: #3c464f;
-  border-color: #2b3640;
+  border-color: #3c464f;
   color: #c4c7ca;
   box-shadow: #212931;
 }
