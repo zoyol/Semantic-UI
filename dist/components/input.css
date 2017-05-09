@@ -508,3 +508,6 @@
          Site Overrides
 *******************************/
 
+.ui.labeled.input:not([class*="corner labeled"]) .label:first-child + input:focus {
+  border-left-color: transparent;
+}

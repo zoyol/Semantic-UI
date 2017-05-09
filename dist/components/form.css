@@ -1134,11 +1134,3 @@
   color: #c4c7ca;
   box-shadow: #212931;
 }
-.ui.dropdown .menu .selected.item,
-.ui.dropdown.selected {
-  background: #222222;
-  color: #ffffff;
-}
-.ui.selection.dropdown .menu > .item {
-  border-top: 1px solid green;
-}

@@ -70,14 +70,3 @@
   color: @text;
   box-shadow: @main-dark;
 }
-
-
-
-.ui.dropdown .menu .selected.item, .ui.dropdown.selected {
-    background: #222222;
-    color: #ffffff;
-}
-
-.ui.selection.dropdown .menu>.item {
-    border-top: 1px solid green;
-  }

@@ -7,9 +7,9 @@
 ---------------*/
 
 .ui.dropdown .menu {
-  background: @main-dark;
-  box-shadow: @main-dark;
-  border: @main-dark;
+  background: @highlight;
+  box-shadow: @muted-text;
+  border: @muted-text;
 }
 
 
@@ -19,12 +19,49 @@
 ---------------*/
 
 .ui.dropdown .menu > .item {
-  border: 1px solid @main;
+  border: 0px solid @highlight;
   border-top: 1px solid @main;
   color: @white;
   box-shadow: @main-dark;
 }
 
+/*--------------------
+    Keyboard Select
+----------------------*/
+
+/* Selected Item */
+.ui.dropdown.selected,
+.ui.dropdown .menu .selected.item {
+  background: @main;
+  color: @white;
+}
+
+.ui.selection.visible.dropdown > .text:not(.default) {
+    color: @white;
+}
+
+.ui.dropdown .menu > .item:hover {
+  background: darken(@highlight, 10%);
+  color: @white;
+}
+
+.ui.selection.dropdown .menu>.item {
+  border-top: 1px solid @main-dark;
+}
+
+.ui.dropdown .menu .active.item {
+    background: darken(@highlight, 10%);
+    color: @white;
+}
+
+/*-----------------
+  Item Description
+-------------------*/
+
+.ui.dropdown > .text > .description,
+.ui.dropdown .menu > .item > .description {
+  color: @white;
+}
 
 
 /*--------------

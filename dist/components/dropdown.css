@@ -1447,9 +1447,9 @@ select.ui.dropdown {
 ---------------*/
 
 .ui.dropdown .menu {
-  background: #212931;
-  box-shadow: #212931;
-  border: #212931;
+  background: #3c464f;
+  box-shadow: #6a7277;
+  border: #6a7277;
 }
 
 /*--------------
@@ -1457,15 +1457,50 @@ select.ui.dropdown {
 ---------------*/
 
 .ui.dropdown .menu > .item {
-  border: 1px solid #2b3640;
+  border: 0px solid #3c464f;
   border-top: 1px solid #2b3640;
   color: #ffffff;
   box-shadow: #212931;
 }
 
+/*--------------------
+    Keyboard Select
+----------------------*/
+
+/* Selected Item */
+.ui.dropdown.selected,
+.ui.dropdown .menu .selected.item {
+  background: #2b3640;
+  color: #ffffff;
+}
+.ui.selection.visible.dropdown > .text:not(.default) {
+  color: #ffffff;
+}
+.ui.dropdown .menu > .item:hover {
+  background: #262c32;
+  color: #ffffff;
+}
+.ui.selection.dropdown .menu > .item {
+  border-top: 1px solid #212931;
+}
+.ui.dropdown .menu .active.item {
+  background: #262c32;
+  color: #ffffff;
+}
+
+/*-----------------
+  Item Description
+-------------------*/
+
+.ui.dropdown > .text > .description,
+.ui.dropdown .menu > .item > .description {
+  color: #ffffff;
+}
+
 /*--------------
     Selection
 ---------------*/
+
 
 /* Displays like a select box */
 .ui.selection.dropdown {
