@@ -1476,6 +1476,7 @@ select.ui.dropdown {
 .ui.selection.visible.dropdown > .text:not(.default) {
   color: #ffffff;
 }
+.ui.dropdown .menu > .item:hover,
 .ui.dropdown .menu > .item:hover {
   background: #262c32;
   color: #ffffff;

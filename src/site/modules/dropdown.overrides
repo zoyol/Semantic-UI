@@ -40,7 +40,8 @@
     color: @white;
 }
 
-.ui.dropdown .menu > .item:hover {
+.ui.dropdown .menu > .item:hover,
+.ui.dropdown .menu>.item:hover {
   background: darken(@highlight, 10%);
   color: @white;
 }

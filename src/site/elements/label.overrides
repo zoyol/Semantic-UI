@@ -4,7 +4,7 @@
 
 .ui.inverted.label {
   background: @muted-text;
-  border: 1px solid @main;
+  border: 1px solid @muted-text;
   color: @white;
   box-shadow: @main-dark;
 }

@@ -13737,7 +13737,7 @@ a.ui.basic.label:hover {
 
 .ui.inverted.label {
   background: #6a7277;
-  border: 1px solid #2b3640;
+  border: 1px solid #6a7277;
   color: #ffffff;
   box-shadow: #212931;
 }
@@ -31241,6 +31241,7 @@ select.ui.dropdown {
   color: #ffffff;
 }
 
+.ui.dropdown .menu > .item:hover,
 .ui.dropdown .menu > .item:hover {
   background: #262c32;
   color: #ffffff;
