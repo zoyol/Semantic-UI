@@ -31208,6 +31208,7 @@ select.ui.dropdown {
       Menu
 ---------------*/
 
+.ui.menu .dropdown.item .menu,
 .ui.dropdown .menu {
   background: #3c464f;
   box-shadow: #6a7277;
@@ -31218,10 +31219,11 @@ select.ui.dropdown {
     Menu Item
 ---------------*/
 
+.ui.menu .ui.dropdown .menu > .item,
 .ui.dropdown .menu > .item {
   border: 0px solid #3c464f;
   border-top: 1px solid #2b3640;
-  color: #ffffff;
+  color: #ffffff !important;
   box-shadow: #212931;
 }
 
@@ -31241,19 +31243,21 @@ select.ui.dropdown {
   color: #ffffff;
 }
 
+.ui.menu .ui.dropdown .menu > .item:hover,
 .ui.dropdown .menu > .item:hover,
 .ui.dropdown .menu > .item:hover {
-  background: #262c32;
-  color: #ffffff;
+  background: #262c32 !important;
+  color: #ffffff !important;
 }
 
 .ui.selection.dropdown .menu > .item {
   border-top: 1px solid #212931;
 }
 
+.ui.menu .ui.dropdown .menu > .active.item,
 .ui.dropdown .menu .active.item {
-  background: #262c32;
-  color: #ffffff;
+  background: #262c32 !important;
+  color: #ffffff !important;
 }
 
 /*-----------------

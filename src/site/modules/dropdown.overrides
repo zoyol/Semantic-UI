@@ -6,22 +6,22 @@
       Menu
 ---------------*/
 
+.ui.menu .dropdown.item .menu,
 .ui.dropdown .menu {
   background: @highlight;
   box-shadow: @muted-text;
   border: @muted-text;
 }
 
-
-
 /*--------------
     Menu Item
 ---------------*/
 
+.ui.menu .ui.dropdown .menu > .item,
 .ui.dropdown .menu > .item {
   border: 0px solid @highlight;
   border-top: 1px solid @main;
-  color: @white;
+  color: @white !important;
   box-shadow: @main-dark;
 }
 
@@ -40,19 +40,21 @@
     color: @white;
 }
 
+.ui.menu .ui.dropdown .menu > .item:hover,
 .ui.dropdown .menu > .item:hover,
 .ui.dropdown .menu>.item:hover {
-  background: darken(@highlight, 10%);
-  color: @white;
+  background: darken(@highlight, 10%) !important;
+  color: @white !important;
 }
 
-.ui.selection.dropdown .menu>.item {
+.ui.selection.dropdown .menu > .item {
   border-top: 1px solid @main-dark;
 }
 
+.ui.menu .ui.dropdown .menu > .active.item,
 .ui.dropdown .menu .active.item {
-    background: darken(@highlight, 10%);
-    color: @white;
+    background: darken(@highlight, 10%) !important;
+    color: @white !important;
 }
 
 /*-----------------
