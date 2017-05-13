@@ -661,8 +661,49 @@ input::selection {
 *******************************/
 
 /*******************************
-         Site Overrides
+Site Overrides
 *******************************/
+
+/*******************************
+Highlighting
+*******************************/
+
+/* Site */
+
+::-webkit-selection {
+  background-color: #2b3640;
+  color: #ffffff;
+}
+
+::-moz-selection {
+  background-color: #2b3640;
+  color: #ffffff;
+}
+
+::selection {
+  background-color: #2b3640;
+  color: #ffffff;
+}
+
+/* Form */
+
+textarea::-webkit-selection,
+input::-webkit-selection {
+  background-color: #2b3640;
+  color: #ffffff;
+}
+
+textarea::-moz-selection,
+input::-moz-selection {
+  background-color: #2b3640;
+  color: #ffffff;
+}
+
+textarea::selection,
+input::selection {
+  background-color: #2b3640;
+  color: #ffffff;
+}
 /*!
  * # Semantic UI 2.2.10 - Button
  * http://github.com/semantic-org/semantic-ui/
@@ -31257,6 +31298,10 @@ select.ui.dropdown {
 .ui.menu .ui.dropdown .menu > .active.item,
 .ui.dropdown .menu .active.item {
   background: #262c32 !important;
+  color: #ffffff !important;
+}
+
+.ui.active.search.dropdown input.search:focus + .text {
   color: #ffffff !important;
 }
 

@@ -1,3 +1,39 @@
 /*******************************
-         Site Overrides
+Site Overrides
 *******************************/
+
+
+/*******************************
+Highlighting
+*******************************/
+
+/* Site */
+::-webkit-selection {
+  background-color: @main;
+  color: @white;
+}
+::-moz-selection {
+  background-color: @main;
+  color: @white;
+}
+::selection {
+  background-color: @main;
+  color: @white;
+}
+
+/* Form */
+textarea::-webkit-selection,
+input::-webkit-selection {
+  background-color: @main;
+  color: @white;
+}
+textarea::-moz-selection,
+input::-moz-selection {
+  background-color: @main;
+  color: @white;
+}
+textarea::selection,
+input::selection {
+  background-color: @main;
+  color: @white;
+}

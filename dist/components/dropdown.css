@@ -1492,6 +1492,9 @@ select.ui.dropdown {
   background: #262c32 !important;
   color: #ffffff !important;
 }
+.ui.active.search.dropdown input.search:focus + .text {
+  color: #ffffff !important;
+}
 
 /*-----------------
   Item Description
