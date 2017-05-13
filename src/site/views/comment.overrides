@@ -1,3 +1,50 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+/*--------------
+     Comment
+---------------*/
+
+.ui.comments {
+  margin-top: 0;
+  max-width: 100%;
+}
+
+.ui.inverted.comments .comment {
+  background: transparent;
+  color: @white;
+  padding: 0.25em 0;
+  margin: 0.25em 0;
+  border-bottom: 1px solid @highlight;
+  &:last-child { border-bottom: 1px solid transparent; }
+}
+
+
+/*--------------
+     Author
+---------------*/
+
+.ui.comments .comment .author {
+  font-size: 0.85em;
+  color: @text;
+}
+.ui.comments .comment a.author:hover {
+  color: @white;
+}
+
+
+/*--------------------
+     Comment Text
+---------------------*/
+
+.ui.comments .comment .text {
+  color: @text;
+  line-height: 1.1em;
+  &:hover {
+  color: @white;
+  pointer: pointer;
+  }
+}
+
+.ui.comments .comment .metadata { color: @muted-text; }
