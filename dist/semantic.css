@@ -29432,6 +29432,17 @@ Colored
 }
 
 /*--------------
+      Label
+---------------*/
+
+/* Inside */
+
+.ui.checkbox label,
+.ui.checkbox + label {
+  color: #c4c7ca;
+}
+
+/*--------------
      Radio
 ---------------*/
 
@@ -32100,6 +32111,14 @@ select.ui.dropdown {
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.inverted.modal,
+.ui.inverted.modal > .header,
+.ui.inverted.modal > .content,
+.ui.inverted.modal > .actions {
+  background: #2b3640;
+  color: #ffffff;
+}
 /*!
  * # Semantic UI 2.2.10 - Nag
  * http://github.com/semantic-org/semantic-ui/

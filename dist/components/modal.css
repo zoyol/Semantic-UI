@@ -500,3 +500,10 @@
          Site Overrides
 *******************************/
 
+.ui.inverted.modal,
+.ui.inverted.modal > .header,
+.ui.inverted.modal > .content,
+.ui.inverted.modal > .actions {
+  background: #2b3640;
+  color: #ffffff;
+}

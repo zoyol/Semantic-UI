@@ -128,6 +128,15 @@
 }
 
 
+/*--------------
+      Label
+---------------*/
+
+/* Inside */
+.ui.checkbox label,
+.ui.checkbox + label {
+  color: @text;
+}
 
 
 

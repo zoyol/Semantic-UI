@@ -746,8 +746,19 @@
 }
 
 /*--------------
+      Label
+---------------*/
+
+/* Inside */
+.ui.checkbox label,
+.ui.checkbox + label {
+  color: #c4c7ca;
+}
+
+/*--------------
      Radio
 ---------------*/
+
 
 /* Radio Checkbox */
 .ui.inverted.radio.checkbox .box:after,
