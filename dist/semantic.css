@@ -12356,6 +12356,10 @@ img.ui.bordered.image {
 .ui.action.input:not([class*="left action"]) input:focus {
   border-right-color: transparent !important;
 }
+
+.ui.input {
+  color: #ffffff;
+}
 /*!
  * # Semantic UI 2.2.10 - Label
  * http://github.com/semantic-org/semantic-ui/

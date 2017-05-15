@@ -516,3 +516,6 @@
 .ui.action.input:not([class*="left action"]) input:focus {
   border-right-color: transparent !important;
 }
+.ui.input {
+  color: #ffffff;
+}
