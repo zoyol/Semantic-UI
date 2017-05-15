@@ -211,7 +211,7 @@
 ---------------*/
 
 .ui.progress.error .bar {
-  background-color: #DB2828 !important;
+  background-color: #CE0F0F !important;
 }
 .ui.progress.error .bar,
 .ui.progress.error .bar::after {
@@ -307,7 +307,7 @@
   color: #F2C037;
 }
 .ui.inverted.progress.error > .label {
-  color: #DB2828;
+  color: #CE0F0F;
 }
 
 /*--------------
@@ -366,7 +366,7 @@
 
 /* Red */
 .ui.red.progress .bar {
-  background-color: #DB2828;
+  background-color: #CE0F0F;
 }
 .ui.red.inverted.progress .bar {
   background-color: #FF695E;

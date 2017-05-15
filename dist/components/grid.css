@@ -1338,7 +1338,7 @@
 .ui.grid > .red.row,
 .ui.grid > .red.column,
 .ui.grid > .row > .red.column {
-  background-color: #DB2828 !important;
+  background-color: #CE0F0F !important;
   color: #ffffff;
 }
 
