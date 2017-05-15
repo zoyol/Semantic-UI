@@ -25,6 +25,7 @@
   box-shadow: @main-dark;
 }
 
+
 /*--------------------
     Keyboard Select
 ----------------------*/
@@ -43,7 +44,7 @@
 .ui.menu .ui.dropdown .menu > .item:hover,
 .ui.dropdown .menu > .item:hover,
 .ui.dropdown .menu>.item:hover {
-  background: darken(@highlight, 10%) !important;
+  background: @main !important;
   color: @white !important;
 }
 
@@ -53,7 +54,7 @@
 
 .ui.menu .ui.dropdown .menu > .active.item,
 .ui.dropdown .menu .active.item {
-    background: darken(@highlight, 10%) !important;
+    background: @main !important;
     color: @white !important;
 }
 

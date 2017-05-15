@@ -31356,7 +31356,7 @@ select.ui.dropdown {
 .ui.menu .ui.dropdown .menu > .item:hover,
 .ui.dropdown .menu > .item:hover,
 .ui.dropdown .menu > .item:hover {
-  background: #262c32 !important;
+  background: #2b3640 !important;
   color: #ffffff !important;
 }
 
@@ -31366,7 +31366,7 @@ select.ui.dropdown {
 
 .ui.menu .ui.dropdown .menu > .active.item,
 .ui.dropdown .menu .active.item {
-  background: #262c32 !important;
+  background: #2b3640 !important;
   color: #ffffff !important;
 }
 
