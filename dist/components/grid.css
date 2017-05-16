@@ -1113,7 +1113,7 @@
   box-shadow: none;
 }
 .ui.inverted[class*="vertically divided"].grid > .row:before {
-  box-shadow: 0px -1px 0px 0px #6a7277;
+  box-shadow: 0px -1px 0px 0px #3c464f;
 }
 
 /* Relaxed */
