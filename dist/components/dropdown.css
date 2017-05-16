@@ -1451,6 +1451,7 @@ select.ui.dropdown {
   background: #3c464f;
   box-shadow: #6a7277;
   border: #6a7277;
+  box-shadow: 0 0 6px 1px #171c22 !important;
 }
 
 /*--------------
