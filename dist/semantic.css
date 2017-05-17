@@ -18719,7 +18719,7 @@ ol.ui.horizontal.list li:before,
 .ui.form .field.error input[type="text"],
 .ui.form .field.error input[type="file"],
 .ui.form .field.error input[type="url"] {
-  background: rgba(206, 16, 15, 0.6);
+  background: rgba(206, 16, 15, 0.4);
   border-color: rgba(206, 16, 15, 0.8);
   color: #ffffff;
 }
@@ -18738,8 +18738,8 @@ ol.ui.horizontal.list li:before,
 .ui.form .field.error input[type="text"]:focus,
 .ui.form .field.error input[type="file"]:focus,
 .ui.form .field.error input[type="url"]:focus {
-  background: rgba(206, 16, 15, 0.8);
-  border-color: #CE0F0F;
+  background: rgba(206, 16, 15, 0.4);
+  border-color: rgba(206, 16, 15, 0.8);
   color: #ffffff;
 }
 
@@ -18752,7 +18752,7 @@ ol.ui.horizontal.list li:before,
 .ui.form .field.error .ui.dropdown,
 .ui.form .field.error .ui.dropdown .text,
 .ui.form .field.error .ui.dropdown .item {
-  background: rgba(206, 16, 15, 0.6);
+  background: rgba(206, 16, 15, 0.4);
   color: #ffffff;
 }
 
