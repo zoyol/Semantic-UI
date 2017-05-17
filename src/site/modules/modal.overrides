@@ -9,3 +9,7 @@
   background: @main;
   color:@white;
 }
+
+.ui.inverted.modal > .close {
+  color:@white;
+}

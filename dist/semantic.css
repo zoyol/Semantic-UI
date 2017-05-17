@@ -32213,6 +32213,10 @@ select.ui.dropdown {
   background: #2b3640;
   color: #ffffff;
 }
+
+.ui.inverted.modal > .close {
+  color: #ffffff;
+}
 /*!
  * # Semantic UI 2.2.10 - Nag
  * http://github.com/semantic-org/semantic-ui/
