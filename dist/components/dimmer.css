@@ -198,3 +198,6 @@ body.dimmable > .dimmer {
         User Overrides
 *******************************/
 
+.ui.dimmer {
+  background-color: rgba(33, 41, 49, 0.9);
+}

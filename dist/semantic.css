@@ -29830,6 +29830,10 @@ body.dimmable > .dimmer {
 /*******************************
         User Overrides
 *******************************/
+
+.ui.dimmer {
+  background-color: rgba(33, 41, 49, 0.9);
+}
 /*!
  * # Semantic UI 2.2.10 - Dropdown
  * http://github.com/semantic-org/semantic-ui/
