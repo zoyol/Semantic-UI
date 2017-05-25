@@ -671,17 +671,17 @@ Highlighting
 /* Site */
 
 ::-webkit-selection {
-  background-color: #2b3640;
+  background-color: #5EA12E;
   color: #ffffff;
 }
 
 ::-moz-selection {
-  background-color: #2b3640;
+  background-color: #5EA12E;
   color: #ffffff;
 }
 
 ::selection {
-  background-color: #2b3640;
+  background-color: #5EA12E;
   color: #ffffff;
 }
 
@@ -689,19 +689,19 @@ Highlighting
 
 textarea::-webkit-selection,
 input::-webkit-selection {
-  background-color: #2b3640;
+  background-color: #5EA12E;
   color: #ffffff;
 }
 
 textarea::-moz-selection,
 input::-moz-selection {
-  background-color: #2b3640;
+  background-color: #5EA12E;
   color: #ffffff;
 }
 
 textarea::selection,
 input::selection {
-  background-color: #2b3640;
+  background-color: #5EA12E;
   color: #ffffff;
 }
 /*!
@@ -6416,7 +6416,7 @@ i.flag.zimbabwe:before {
   margin: calc(2rem -  0.14285714em ) 0em 1rem;
   padding: 0em 0em;
   font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 1.28571429em;
   text-transform: none;
   color: rgba(0, 0, 0, 0.87);

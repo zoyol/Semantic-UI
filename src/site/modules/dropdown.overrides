@@ -23,7 +23,7 @@
   border: 0px solid @highlight;
   border-top: 1px solid @main;
   color: @white !important;
-  box-shadow: @main-dark;
+  box-shadow: @main-dark; 
 }
 
 

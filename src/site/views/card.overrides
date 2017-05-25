@@ -8,7 +8,7 @@
 .ui.inverted.card,
 .ui.inverted.cards>.card {
     background: rgba(0, 0, 0, 0.15);
-    color: @text;
+    color: @text; 
     box-shadow: 0 1px 3px 0 @main, 0 0 0 1px @main;
 }
 

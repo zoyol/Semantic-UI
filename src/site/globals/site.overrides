@@ -9,31 +9,31 @@ Highlighting
 
 /* Site */
 ::-webkit-selection {
-  background-color: @main;
+  background-color: @green;
   color: @white;
 }
 ::-moz-selection {
-  background-color: @main;
+  background-color: @green;
   color: @white;
 }
 ::selection {
-  background-color: @main;
+  background-color: @green;
   color: @white;
 }
 
 /* Form */
 textarea::-webkit-selection,
 input::-webkit-selection {
-  background-color: @main;
+  background-color: @green;
   color: @white;
 }
 textarea::-moz-selection,
 input::-moz-selection {
-  background-color: @main;
+  background-color: @green;
   color: @white;
 }
 textarea::selection,
 input::selection {
-  background-color: @main;
+  background-color: @green;
   color: @white;
 }
