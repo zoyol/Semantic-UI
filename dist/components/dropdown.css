@@ -1463,6 +1463,7 @@ select.ui.dropdown {
   border: 0px solid #3c464f;
   border-top: 1px solid #2b3640;
   color: #ffffff !important;
+  font-weight: 300 !important;
   box-shadow: #212931;
 }
 

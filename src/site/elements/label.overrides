@@ -3,7 +3,7 @@
 *******************************/
 
 .ui.inverted.label {
-  background: @muted-text;
+  background: @highlight;
   border: 1px solid @muted-text;
   color: @white;
   box-shadow: @main-dark;

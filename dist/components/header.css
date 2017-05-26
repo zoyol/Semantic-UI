@@ -343,13 +343,13 @@ a.ui.inverted.red.header:hover {
 /*--- Orange ---*/
 
 .ui.orange.header {
-  color: #F2711C !important;
+  color: #FA7000 !important;
 }
 a.ui.orange.header:hover {
-  color: #f26202 !important;
+  color: #e16500 !important;
 }
 .ui.orange.dividing.header {
-  border-bottom: 2px solid #F2711C;
+  border-bottom: 2px solid #FA7000;
 }
 
 /* Inverted */

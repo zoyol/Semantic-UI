@@ -549,16 +549,16 @@ a.ui.basic.red.label:hover {
 
 .ui.orange.labels .label,
 .ui.orange.label {
-  background-color: #F2711C !important;
-  border-color: #F2711C !important;
+  background-color: #FA7000 !important;
+  border-color: #FA7000 !important;
   color: #ffffff !important;
 }
 
 /* Link */
 .ui.orange.labels .label:hover,
 a.ui.orange.label:hover {
-  background-color: #f26202 !important;
-  border-color: #f26202 !important;
+  background-color: #e16500 !important;
+  border-color: #e16500 !important;
   color: #ffffff !important;
 }
 
@@ -570,20 +570,20 @@ a.ui.orange.label:hover {
 
 /* Ribbon */
 .ui.orange.ribbon.label {
-  border-color: #cf590c !important;
+  border-color: #c75900 !important;
 }
 
 /* Basic */
 .ui.basic.orange.label {
   background-color: #ffffff !important;
-  color: #F2711C !important;
-  border-color: #F2711C !important;
+  color: #FA7000 !important;
+  border-color: #FA7000 !important;
 }
 .ui.basic.orange.labels a.label:hover,
 a.ui.basic.orange.label:hover {
   background-color: #ffffff !important;
-  color: #f26202 !important;
-  border-color: #f26202 !important;
+  color: #e16500 !important;
+  border-color: #e16500 !important;
 }
 
 /*--- Yellow ---*/
@@ -1306,7 +1306,7 @@ a.ui.basic.label:hover {
 *******************************/
 
 .ui.inverted.label {
-  background: #6a7277;
+  background: #3c464f;
   border: 1px solid #6a7277;
   color: #ffffff;
   box-shadow: #212931;
