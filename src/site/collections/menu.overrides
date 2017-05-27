@@ -2,14 +2,8 @@
          Site Overrides
 *******************************/
 
-.ui.secondary.inverted.menu .dropdown.item:hover,
-.ui.secondary.inverted.menu .link.item:hover,
-.ui.secondary.inverted.menu a.item:hover {
-  background: @highlight;
-  color: @white !important;
-}
 
-.ui.secondary.inverted.menu .active.item {
-  background: @highlight;
-  color: @white !important;
+/* Menu Items */
+.ui.menu .ui.dropdown .menu > .item {
+  font-weight: 300 !important;
 }

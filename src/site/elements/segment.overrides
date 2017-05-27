@@ -4,5 +4,5 @@
 
 /* Attached */
 .ui.inverted.attached.segment {
-  border-color: @highlight;
+  border-color: @main;
 }

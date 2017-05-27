@@ -16620,7 +16620,7 @@ ol.ui.horizontal.list li:before,
 /* Attached */
 
 .ui.inverted.attached.segment {
-  border-color: #3c464f;
+  border-color: #2b3640;
 }
 /*!
  * # Semantic UI 2.2.10 - Step
@@ -23282,16 +23282,10 @@ Floated Menu / Item
          Site Overrides
 *******************************/
 
-.ui.secondary.inverted.menu .dropdown.item:hover,
-.ui.secondary.inverted.menu .link.item:hover,
-.ui.secondary.inverted.menu a.item:hover {
-  background: #3c464f;
-  color: #ffffff !important;
-}
+/* Menu Items */
 
-.ui.secondary.inverted.menu .active.item {
-  background: #3c464f;
-  color: #ffffff !important;
+.ui.menu .ui.dropdown .menu > .item {
+  font-weight: 300 !important;
 }
 /*!
  * # Semantic UI 2.2.10 - Message
