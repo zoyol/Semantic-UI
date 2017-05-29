@@ -1,3 +1,27 @@
 /*******************************
          Site Overrides
 *******************************/
+
+/*-------------------
+        Star
+--------------------*/
+
+/*-------------------
+      Standard
+--------------------*/
+
+/* Inactive Icon */
+.ui.rating .icon {
+  color: @muted-text;
+}
+
+/* Active Icon */
+.ui.rating .active.icon {
+  color: @yellow;
+}
+
+/* Selected Icon */
+.ui.rating .icon.selected,
+.ui.rating .icon.selected.active {
+  color: @yellow;
+}
