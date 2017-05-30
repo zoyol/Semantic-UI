@@ -4655,6 +4655,11 @@ input::selection {
          Site Overrides
 *******************************/
 
+.ui.button {
+  color: #000;
+  font-weight: 400 !important;
+}
+
 /* KM */
 
 .ui.kilomodo.button {
@@ -13789,6 +13794,13 @@ a.ui.basic.label:hover {
 .ui.inverted.label {
   background: #3c464f;
   border: 1px solid #6a7277;
+  color: #ffffff;
+  box-shadow: #212931;
+}
+
+.ui.inverted.no-outline.label {
+  background: #3c464f;
+  border: 1px solid transparent;
   color: #ffffff;
   box-shadow: #212931;
 }

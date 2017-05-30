@@ -1311,6 +1311,12 @@ a.ui.basic.label:hover {
   color: #ffffff;
   box-shadow: #212931;
 }
+.ui.inverted.no-outline.label {
+  background: #3c464f;
+  border: 1px solid transparent;
+  color: #ffffff;
+  box-shadow: #212931;
+}
 
 /* Link */
 a.ui.inverted.label:hover {

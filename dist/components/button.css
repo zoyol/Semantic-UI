@@ -3447,6 +3447,10 @@
          Site Overrides
 *******************************/
 
+.ui.button {
+  color: #000;
+  font-weight: 400 !important;
+}
 
 /* KM */
 .ui.kilomodo.button {

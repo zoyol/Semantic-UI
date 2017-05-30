@@ -9,6 +9,13 @@
   box-shadow: @main-dark;
 }
 
+.ui.inverted.no-outline.label {
+  background: @highlight;
+  border: 1px solid transparent;
+  color: @white;
+  box-shadow: @main-dark;
+}
+
 /* Link */
 a.ui.inverted.label:hover {
   text-decoration: none;
