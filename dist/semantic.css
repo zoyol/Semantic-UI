@@ -12353,13 +12353,17 @@ img.ui.bordered.image {
 *******************************/
 
 .ui.labeled.input:not([class*="corner labeled"]) .label:first-child + input:focus {
-  border-left-color: transparent;
+  border-left-color: #6a7277;
 }
 
 /* Input Focus */
 
 .ui.action.input:not([class*="left action"]) input:focus {
-  border-right-color: transparent !important;
+  border-right-color: #6a7277 !important;
+}
+
+.ui[class*="right labeled"].input input:focus {
+  border-right-color: #6a7277 !important;
 }
 
 .ui.input {
@@ -18777,6 +18781,31 @@ ol.ui.horizontal.list li:before,
   background: #ef2121 !important;
   border: #CE0F0F !important;
   color: #ffffff !important;
+}
+
+/*--------------------
+        Focus
+---------------------*/
+
+.ui.inverted.form input:not([type]):focus,
+.ui.inverted.form input[type="date"]:focus,
+.ui.inverted.form input[type="datetime-local"]:focus,
+.ui.inverted.form input[type="email"]:focus,
+.ui.inverted.form input[type="number"]:focus,
+.ui.inverted.form input[type="password"]:focus,
+.ui.inverted.form input[type="search"]:focus,
+.ui.inverted.form input[type="tel"]:focus,
+.ui.inverted.form input[type="time"]:focus,
+.ui.inverted.form input[type="text"]:focus,
+.ui.inverted.form input[type="file"]:focus,
+.ui.inverted.form input[type="url"]:focus {
+  color: #ffffff;
+  border-color: #6a7277;
+}
+
+.ui.inverted.form textarea:focus {
+  color: #ffffff;
+  border-color: #6a7277;
 }
 /*!
  * # Semantic UI 2.2.10 - Grid
@@ -31510,7 +31539,13 @@ select.ui.dropdown {
   background: #3c464f;
   color: #c4c7ca;
   box-shadow: #212931;
-  border: #6a7277;
+  border: 1px solid #3c464f;
+}
+
+.ui.selection.active.dropdown,
+.ui.selection.dropdown:focus,
+.ui.selection.active.dropdown:hover {
+  border-color: #6a7277;
 }
 /*!
  * # Semantic UI 2.2.10 - Video

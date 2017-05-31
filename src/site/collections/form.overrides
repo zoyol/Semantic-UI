@@ -163,3 +163,29 @@
   border: @red !important;
   color: @white !important;
 }
+
+
+
+/*--------------------
+        Focus
+---------------------*/
+
+.ui.inverted.form input:not([type]):focus,
+.ui.inverted.form input[type="date"]:focus,
+.ui.inverted.form input[type="datetime-local"]:focus,
+.ui.inverted.form input[type="email"]:focus,
+.ui.inverted.form input[type="number"]:focus,
+.ui.inverted.form input[type="password"]:focus,
+.ui.inverted.form input[type="search"]:focus,
+.ui.inverted.form input[type="tel"]:focus,
+.ui.inverted.form input[type="time"]:focus,
+.ui.inverted.form input[type="text"]:focus,
+.ui.inverted.form input[type="file"]:focus,
+.ui.inverted.form input[type="url"]:focus {
+  color: @white;
+  border-color: @muted-text;
+}
+.ui.inverted.form textarea:focus {
+  color: @white;
+  border-color: @muted-text;
+}

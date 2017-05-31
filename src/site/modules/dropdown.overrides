@@ -83,5 +83,11 @@
   background: @highlight;
   color: @text;
   box-shadow: @main-dark;
-  border: @muted-text;
+  border: 1px solid @highlight;
+}
+
+.ui.selection.active.dropdown,
+.ui.selection.dropdown:focus,
+.ui.selection.active.dropdown:hover {
+    border-color: @muted-text;
 }

@@ -1517,5 +1517,10 @@ select.ui.dropdown {
   background: #3c464f;
   color: #c4c7ca;
   box-shadow: #212931;
-  border: #6a7277;
+  border: 1px solid #3c464f;
+}
+.ui.selection.active.dropdown,
+.ui.selection.dropdown:focus,
+.ui.selection.active.dropdown:hover {
+  border-color: #6a7277;
 }
