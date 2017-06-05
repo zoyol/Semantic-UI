@@ -21,7 +21,6 @@
 .ui.menu .ui.inverted.dropdown .menu > .item,
 .ui.inverted.dropdown .menu > .item {
   border: 0px solid @highlight;
-  border-top: 1px solid @main;
   color: @white !important;
   font-weight: 300 !important;
   box-shadow: @main-dark;
@@ -48,10 +47,6 @@
 .ui.inverted.dropdown .menu>.item:hover {
   background: @main !important;
   color: @white !important;
-}
-
-.ui.selection.inverted.dropdown .menu > .item {
-  border-top: 1px solid @main-dark;
 }
 
 .ui.menu .ui.inverted.dropdown .menu > .active.item,
@@ -90,4 +85,12 @@
 .ui.selection.inverted.dropdown:focus,
 .ui.selection.active.dropdown:hover {
     border-color: @muted-text;
+}
+
+
+/*--------------
+    divider
+---------------*/
+.ui.inverted.dropdown .menu > .divider {
+  border-top: 1px solid @muted-text;
 }

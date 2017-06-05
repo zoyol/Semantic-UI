@@ -1461,7 +1461,6 @@ select.ui.dropdown {
 .ui.menu .ui.inverted.dropdown .menu > .item,
 .ui.inverted.dropdown .menu > .item {
   border: 0px solid #3c464f;
-  border-top: 1px solid #2b3640;
   color: #ffffff !important;
   font-weight: 300 !important;
   box-shadow: #212931;
@@ -1485,9 +1484,6 @@ select.ui.dropdown {
 .ui.inverted.dropdown .menu > .item:hover {
   background: #2b3640 !important;
   color: #ffffff !important;
-}
-.ui.selection.inverted.dropdown .menu > .item {
-  border-top: 1px solid #212931;
 }
 .ui.menu .ui.inverted.dropdown .menu > .active.item,
 .ui.inverted.dropdown .menu .active.item {
@@ -1523,4 +1519,12 @@ select.ui.dropdown {
 .ui.selection.inverted.dropdown:focus,
 .ui.selection.active.dropdown:hover {
   border-color: #6a7277;
+}
+
+/*--------------
+    divider
+---------------*/
+
+.ui.inverted.dropdown .menu > .divider {
+  border-top: 1px solid #6a7277;
 }
