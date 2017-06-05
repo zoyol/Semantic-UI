@@ -1446,8 +1446,8 @@ select.ui.dropdown {
       Menu
 ---------------*/
 
-.ui.menu .dropdown.item .menu,
-.ui.dropdown .menu {
+.ui.menu .inverted.dropdown.item .menu,
+.ui.inverted.dropdown .menu {
   background: #3c464f;
   box-shadow: #6a7277;
   border: #6a7277;
@@ -1458,8 +1458,8 @@ select.ui.dropdown {
     Menu Item
 ---------------*/
 
-.ui.menu .ui.dropdown .menu > .item,
-.ui.dropdown .menu > .item {
+.ui.menu .ui.inverted.dropdown .menu > .item,
+.ui.inverted.dropdown .menu > .item {
   border: 0px solid #3c464f;
   border-top: 1px solid #2b3640;
   color: #ffffff !important;
@@ -1472,29 +1472,29 @@ select.ui.dropdown {
 ----------------------*/
 
 /* Selected Item */
-.ui.dropdown.selected,
-.ui.dropdown .menu .selected.item {
+.ui.inverted.dropdown.selected,
+.ui.inverted.dropdown .menu .selected.item {
   background: #2b3640;
   color: #ffffff;
 }
-.ui.selection.visible.dropdown > .text:not(.default) {
+.ui.selection.visible.inverted.dropdown > .text:not(.default) {
   color: #ffffff;
 }
-.ui.menu .ui.dropdown .menu > .item:hover,
-.ui.dropdown .menu > .item:hover,
-.ui.dropdown .menu > .item:hover {
+.ui.menu .ui.inverted.dropdown .menu > .item:hover,
+.ui.inverted.dropdown .menu > .item:hover,
+.ui.inverted.dropdown .menu > .item:hover {
   background: #2b3640 !important;
   color: #ffffff !important;
 }
-.ui.selection.dropdown .menu > .item {
+.ui.selection.inverted.dropdown .menu > .item {
   border-top: 1px solid #212931;
 }
-.ui.menu .ui.dropdown .menu > .active.item,
-.ui.dropdown .menu .active.item {
+.ui.menu .ui.inverted.dropdown .menu > .active.item,
+.ui.inverted.dropdown .menu .active.item {
   background: #2b3640 !important;
   color: #ffffff !important;
 }
-.ui.active.search.dropdown input.search:focus + .text {
+.ui.active.search.inverted.dropdown input.search:focus + .text {
   color: #ffffff !important;
 }
 
@@ -1502,8 +1502,8 @@ select.ui.dropdown {
   Item Description
 -------------------*/
 
-.ui.dropdown > .text > .description,
-.ui.dropdown .menu > .item > .description {
+.ui.inverted.dropdown > .text > .description,
+.ui.inverted.dropdown .menu > .item > .description {
   color: #ffffff;
 }
 
@@ -1513,14 +1513,14 @@ select.ui.dropdown {
 
 
 /* Displays like a select box */
-.ui.selection.dropdown {
+.ui.selection.inverted.dropdown {
   background: #3c464f;
   color: #c4c7ca;
   box-shadow: #212931;
   border: 1px solid #3c464f;
 }
-.ui.selection.active.dropdown,
-.ui.selection.dropdown:focus,
+.ui.selection.active.inverted.dropdown,
+.ui.selection.inverted.dropdown:focus,
 .ui.selection.active.dropdown:hover {
   border-color: #6a7277;
 }
