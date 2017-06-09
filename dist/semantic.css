@@ -23351,6 +23351,13 @@ Floated Menu / Item
 .ui.menu .ui.dropdown .menu > .item {
   font-weight: 300 !important;
 }
+
+.ui.secondary.inverted.menu .active.item:hover,
+.ui.secondary.inverted.menu .item:hover,
+.ui.secondary.inverted.menu .active.item {
+  background: #2185D0 !important;
+  color: #ffffff !important;
+}
 /*!
  * # Semantic UI 2.2.10 - Message
  * http://github.com/semantic-org/semantic-ui/
