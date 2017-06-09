@@ -2011,3 +2011,8 @@ Floated Menu / Item
   background: #2185D0 !important;
   color: #ffffff !important;
 }
+.ui.secondary.inverted.menu .active.item:hover.right.item,
+.ui.secondary.inverted.menu .item:hover.right.item,
+.ui.secondary.inverted.menu .active.item.right.item {
+  background: transparent !important;
+}

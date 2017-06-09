@@ -14,4 +14,7 @@
 .ui.secondary.inverted.menu .active.item {
   background: @blue !important;
   color: @secondaryInvertedActiveColor !important;
+  &.right.item {
+  background: transparent !important;
+  }
 }
