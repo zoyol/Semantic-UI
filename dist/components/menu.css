@@ -2013,6 +2013,9 @@ Floated Menu / Item
 }
 .ui.secondary.inverted.menu .active.item:hover.right.item,
 .ui.secondary.inverted.menu .item:hover.right.item,
-.ui.secondary.inverted.menu .active.item.right.item {
+.ui.secondary.inverted.menu .active.item.right.item,
+.ui.secondary.inverted.menu .active.item:hover.right.inverted.item,
+.ui.secondary.inverted.menu .item:hover.right.inverted.item,
+.ui.secondary.inverted.menu .active.item.right.inverted.item {
   background: transparent !important;
 }
