@@ -84,7 +84,7 @@
 .ui.form .field.error label,
 .ui.form .fields.error .field .input,
 .ui.form .field.error .input {
-  color: @red;
+  color: @white;
 }
 
 .ui.form .fields.error .field textarea,
@@ -115,7 +115,7 @@
 .ui.form .field.error input[type="text"],
 .ui.form .field.error input[type="file"],
 .ui.form .field.error input[type="url"] {
-  background: rgba(206, 16, 15, 0.4) ;
+  background: @highlight ;
   border-color: rgba(206, 16, 15, 0.8);
   color: @white;
 }
@@ -133,23 +133,50 @@
 .ui.form .field.error input[type="text"]:focus,
 .ui.form .field.error input[type="file"]:focus,
 .ui.form .field.error input[type="url"]:focus {
-  background: rgba(206, 16, 15, 0.4);
+  background: @highlight;
   border-color: rgba(206, 16, 15, 0.8);
   color: @white;
 }
 
 
 
+
+
+.ui.form .field.error .ui.dropdown,
+.ui.form .field.error .ui.dropdown .item,
+.ui.form .field.error .ui.dropdown .text,
+.ui.form .fields.error .field .ui.dropdown,
+.ui.form .fields.error .field .ui.dropdown .item {
+    background: @highlight;
+    color: @text;
+}
+
+.ui.form .field.error .ui.dropdown:hover,
+.ui.form .fields.error .field .ui.dropdown:hover {
+    border-color: @red !important;
+}
+
+/* Error Placeholder */
+.ui.form .error ::-webkit-input-placeholder { color: @text; }
+.ui.form .error :-ms-input-placeholder { color: @text !important; }
+.ui.form .error ::-moz-placeholder { color: @text; }
+.ui.form .error :focus::-webkit-input-placeholder { color: @text; }
+.ui.form .error :focus:-ms-input-placeholder { color: @text !important; }
+.ui.form .error :focus::-moz-placeholder { color: @text; }
+
+
 /*------------------
     Dropdown Error
+
+  .ui.form .field.error .ui.dropdown .text
+  .ui.form .field.error .ui.dropdown .item
 --------------------*/
 
 .ui.form .fields.error .field .ui.dropdown,
 .ui.form .fields.error .field .ui.dropdown .item,
-.ui.form .field.error .ui.dropdown,
-.ui.form .field.error .ui.dropdown .text,
-.ui.form .field.error .ui.dropdown .item {
-  background: rgba(206, 16, 15, 0.4) ;
+.ui.form .field.error .ui.dropdown {
+  background: @highlight !important;
+  border: 1px solid @red !important;
   color: @white;
 }
 

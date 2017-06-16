@@ -18727,7 +18727,7 @@ ol.ui.horizontal.list li:before,
 .ui.form .field.error label,
 .ui.form .fields.error .field .input,
 .ui.form .field.error .input {
-  color: #CE0F0F;
+  color: #ffffff;
 }
 
 .ui.form .fields.error .field textarea,
@@ -18758,7 +18758,7 @@ ol.ui.horizontal.list li:before,
 .ui.form .field.error input[type="text"],
 .ui.form .field.error input[type="file"],
 .ui.form .field.error input[type="url"] {
-  background: rgba(206, 16, 15, 0.4);
+  background: #3c464f;
   border-color: rgba(206, 16, 15, 0.8);
   color: #ffffff;
 }
@@ -18777,21 +18777,63 @@ ol.ui.horizontal.list li:before,
 .ui.form .field.error input[type="text"]:focus,
 .ui.form .field.error input[type="file"]:focus,
 .ui.form .field.error input[type="url"]:focus {
-  background: rgba(206, 16, 15, 0.4);
+  background: #3c464f;
   border-color: rgba(206, 16, 15, 0.8);
   color: #ffffff;
 }
 
+.ui.form .field.error .ui.dropdown,
+.ui.form .field.error .ui.dropdown .item,
+.ui.form .field.error .ui.dropdown .text,
+.ui.form .fields.error .field .ui.dropdown,
+.ui.form .fields.error .field .ui.dropdown .item {
+  background: #3c464f;
+  color: #c4c7ca;
+}
+
+.ui.form .field.error .ui.dropdown:hover,
+.ui.form .fields.error .field .ui.dropdown:hover {
+  border-color: #CE0F0F !important;
+}
+
+/* Error Placeholder */
+
+.ui.form .error ::-webkit-input-placeholder {
+  color: #c4c7ca;
+}
+
+.ui.form .error :-ms-input-placeholder {
+  color: #c4c7ca !important;
+}
+
+.ui.form .error ::-moz-placeholder {
+  color: #c4c7ca;
+}
+
+.ui.form .error :focus::-webkit-input-placeholder {
+  color: #c4c7ca;
+}
+
+.ui.form .error :focus:-ms-input-placeholder {
+  color: #c4c7ca !important;
+}
+
+.ui.form .error :focus::-moz-placeholder {
+  color: #c4c7ca;
+}
+
 /*------------------
     Dropdown Error
+
+    .ui.form .field.error .ui.dropdown .text
+.ui.form .field.error .ui.dropdown .item
 --------------------*/
 
 .ui.form .fields.error .field .ui.dropdown,
 .ui.form .fields.error .field .ui.dropdown .item,
-.ui.form .field.error .ui.dropdown,
-.ui.form .field.error .ui.dropdown .text,
-.ui.form .field.error .ui.dropdown .item {
-  background: rgba(206, 16, 15, 0.4);
+.ui.form .field.error .ui.dropdown {
+  background: #3c464f !important;
+  border: 1px solid #CE0F0F !important;
   color: #ffffff;
 }
 
