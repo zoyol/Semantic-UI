@@ -1,96 +1,103 @@
 /*******************************
-        User Overrides
+User Overrides
 *******************************/
 
 /*--------------
-      Menu
+Menu
 ---------------*/
 
 .ui.menu .inverted.dropdown.item .menu,
 .ui.inverted.dropdown .menu {
-  background: @highlight;
-  box-shadow: @muted-text;
-  border: @muted-text;
-  box-shadow: 0 0 6px 1px darken(@main-dark, 5%) !important;
+background: @highlight;
+border: @muted-text;
+box-shadow: 0 0 6px 1px darken(@main-dark, 5%) !important;
 }
 
 /*--------------
-    Menu Item
+Menu Item
 ---------------*/
 
 .ui.menu .ui.inverted.dropdown .menu > .item,
 .ui.inverted.dropdown .menu > .item {
-  border: 0px solid @highlight;
-  color: @white !important;
-  font-weight: 300 !important;
-  box-shadow: @main-dark;
+border: 0px solid @highlight;
+color: @white !important;
+font-weight: 300 !important;
+box-shadow: @main-dark;
 }
 
 
 /*--------------------
-    Keyboard Select
+Keyboard Select
 ----------------------*/
 
 /* Selected Item */
 .ui.inverted.dropdown.selected,
 .ui.inverted.dropdown .menu .selected.item {
-  background: @main;
-  color: @white;
+background: @main;
+color: @white;
 }
 
 .ui.selection.visible.inverted.dropdown > .text:not(.default) {
-    color: @white;
+color: @white;
 }
 
 .ui.menu .ui.inverted.dropdown .menu > .item:hover,
 .ui.inverted.dropdown .menu > .item:hover,
 .ui.inverted.dropdown .menu>.item:hover {
-  background: @main !important;
-  color: @white !important;
+background: @main !important;
+color: @white !important;
 }
 
 .ui.menu .ui.inverted.dropdown .menu > .active.item,
 .ui.inverted.dropdown .menu .active.item {
-    background: @main !important;
-    color: @white !important;
+background: @main !important;
+color: @white !important;
 }
 
 .ui.active.search.inverted.dropdown input.search:focus+.text {
-    color: @white !important;
+color: @white !important;
 }
 
 /*-----------------
-  Item Description
+Item Description
 -------------------*/
 
 .ui.inverted.dropdown > .text > .description,
 .ui.inverted.dropdown .menu > .item > .description {
-  color: @white;
+color: @white;
 }
 
 
 /*--------------
-    Selection
+divider
+---------------*/
+.ui.inverted.dropdown .menu > .divider {
+border-top: 1px solid @muted-text;
+}
+
+
+/*--------------
+Selection
 ---------------*/
 
-/* Displays like a select box */
 .ui.selection.inverted.dropdown {
-  background: @highlight;
-  color: @text;
-  box-shadow: @main-dark;
-  border: 1px solid @highlight;
+background: @highlight !important;
+color: @text;
+box-shadow: @main-dark;
+border: 1px solid darken(@muted-text, 10%);
+}
+
+.ui.selection.inverted.dropdown .menu {
+background: @highlight;
+border: 1px solid darken(@muted-text, 10%);
+box-shadow: none !important;
 }
 
 .ui.selection.active.inverted.dropdown,
 .ui.selection.inverted.dropdown:focus,
-.ui.selection.active.dropdown:hover {
-    border-color: @muted-text;
-}
-
-
-/*--------------
-    divider
----------------*/
-.ui.inverted.dropdown .menu > .divider {
-  border-top: 1px solid @muted-text;
+.ui.selection.active.dropdown:hover,
+.ui.selection.inverted.dropdown .menu:focus,
+.ui.selection.active.dropdown .menu:hover,
+.ui.selection.active.inverted.dropdown:hover .menu {
+border-color: darken(@muted-text, 10%) !important;
 }

@@ -34,7 +34,7 @@
 .ui.inverted.form input[type="url"],
 .ui.inverted.form input[type="checkbox"] {
   background: @highlight;
-  border-color: @highlight;
+  border-color: darken(@muted-text, 10%);
   color: @text;
   box-shadow: @main-dark;
 }
@@ -66,7 +66,7 @@
 .ui.inverted.form input[type="file"],
 .ui.inverted.form input[type="url"] {
   background: @highlight;
-  border-color: @highlight;
+  border-color: darken(@muted-text, 10%);
   color: @text;
   box-shadow: @main-dark;
 }

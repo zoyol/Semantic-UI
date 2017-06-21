@@ -1099,7 +1099,7 @@
 .ui.inverted.form input[type="url"],
 .ui.inverted.form input[type="checkbox"] {
   background: #3c464f;
-  border-color: #3c464f;
+  border-color: #52585c;
   color: #c4c7ca;
   box-shadow: #212931;
 }
@@ -1130,7 +1130,7 @@
 .ui.inverted.form input[type="file"],
 .ui.inverted.form input[type="url"] {
   background: #3c464f;
-  border-color: #3c464f;
+  border-color: #52585c;
   color: #c4c7ca;
   box-shadow: #212931;
 }

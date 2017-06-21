@@ -12353,17 +12353,17 @@ img.ui.bordered.image {
 *******************************/
 
 .ui.labeled.input:not([class*="corner labeled"]) .label:first-child + input:focus {
-  border-left-color: #6a7277;
+  border-left-color: #52585c;
 }
 
 /* Input Focus */
 
 .ui.action.input:not([class*="left action"]) input:focus {
-  border-right-color: #6a7277 !important;
+  border-right-color: #52585c !important;
 }
 
 .ui[class*="right labeled"].input input:focus {
-  border-right-color: #6a7277 !important;
+  border-right-color: #52585c !important;
 }
 
 .ui.input {
@@ -18680,7 +18680,7 @@ ol.ui.horizontal.list li:before,
 .ui.inverted.form input[type="url"],
 .ui.inverted.form input[type="checkbox"] {
   background: #3c464f;
-  border-color: #3c464f;
+  border-color: #52585c;
   color: #c4c7ca;
   box-shadow: #212931;
 }
@@ -18712,7 +18712,7 @@ ol.ui.horizontal.list li:before,
 .ui.inverted.form input[type="file"],
 .ui.inverted.form input[type="url"] {
   background: #3c464f;
-  border-color: #3c464f;
+  border-color: #52585c;
   color: #c4c7ca;
   box-shadow: #212931;
 }
@@ -31537,23 +31537,22 @@ select.ui.dropdown {
 */
 
 /*******************************
-        User Overrides
+User Overrides
 *******************************/
 
 /*--------------
-      Menu
+Menu
 ---------------*/
 
 .ui.menu .inverted.dropdown.item .menu,
 .ui.inverted.dropdown .menu {
   background: #3c464f;
-  box-shadow: #6a7277;
   border: #6a7277;
   box-shadow: 0 0 6px 1px #171c22 !important;
 }
 
 /*--------------
-    Menu Item
+Menu Item
 ---------------*/
 
 .ui.menu .ui.inverted.dropdown .menu > .item,
@@ -31565,7 +31564,7 @@ select.ui.dropdown {
 }
 
 /*--------------------
-    Keyboard Select
+Keyboard Select
 ----------------------*/
 
 /* Selected Item */
@@ -31598,7 +31597,7 @@ select.ui.dropdown {
 }
 
 /*-----------------
-  Item Description
+Item Description
 -------------------*/
 
 .ui.inverted.dropdown > .text > .description,
@@ -31607,30 +31606,37 @@ select.ui.dropdown {
 }
 
 /*--------------
-    Selection
----------------*/
-
-/* Displays like a select box */
-
-.ui.selection.inverted.dropdown {
-  background: #3c464f;
-  color: #c4c7ca;
-  box-shadow: #212931;
-  border: 1px solid #3c464f;
-}
-
-.ui.selection.active.inverted.dropdown,
-.ui.selection.inverted.dropdown:focus,
-.ui.selection.active.dropdown:hover {
-  border-color: #6a7277;
-}
-
-/*--------------
-    divider
+divider
 ---------------*/
 
 .ui.inverted.dropdown .menu > .divider {
   border-top: 1px solid #6a7277;
+}
+
+/*--------------
+Selection
+---------------*/
+
+.ui.selection.inverted.dropdown {
+  background: #3c464f !important;
+  color: #c4c7ca;
+  box-shadow: #212931;
+  border: 1px solid #52585c;
+}
+
+.ui.selection.inverted.dropdown .menu {
+  background: #3c464f;
+  border: 1px solid #52585c;
+  box-shadow: none !important;
+}
+
+.ui.selection.active.inverted.dropdown,
+.ui.selection.inverted.dropdown:focus,
+.ui.selection.active.dropdown:hover,
+.ui.selection.inverted.dropdown .menu:focus,
+.ui.selection.active.dropdown .menu:hover,
+.ui.selection.active.inverted.dropdown:hover .menu {
+  border-color: #52585c !important;
 }
 /*!
  * # Semantic UI 2.2.10 - Video
