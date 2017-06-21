@@ -1233,8 +1233,9 @@
 /*------------------
     Dropdown Error
 
-    .ui.form .field.error .ui.dropdown .text
-.ui.form .field.error .ui.dropdown .item
+----- REMOVED -----
+  .ui.form .field.error .ui.dropdown .text
+  .ui.form .field.error .ui.dropdown .item
 --------------------*/
 
 .ui.form .fields.error .field .ui.dropdown,
