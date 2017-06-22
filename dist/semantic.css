@@ -12353,17 +12353,17 @@ img.ui.bordered.image {
 *******************************/
 
 .ui.labeled.input:not([class*="corner labeled"]) .label:first-child + input:focus {
-  border-left-color: #52585c;
+  border-left-color: #212931;
 }
 
 /* Input Focus */
 
 .ui.action.input:not([class*="left action"]) input:focus {
-  border-right-color: #52585c !important;
+  border-right-color: #212931 !important;
 }
 
 .ui[class*="right labeled"].input input:focus {
-  border-right-color: #52585c !important;
+  border-right-color: #212931 !important;
 }
 
 .ui.input {
@@ -13797,7 +13797,7 @@ a.ui.basic.label:hover {
 
 .ui.inverted.label {
   background: #3c464f;
-  border: 1px solid #6a7277;
+  border: 1px solid #52585c;
   color: #ffffff;
   box-shadow: #212931;
 }
@@ -13825,7 +13825,7 @@ a.ui.inverted.label:hover {
 
 .ui.basic.inverted.label {
   background: #212931;
-  border: #212931;
+  border: 1px solid #212931;
   color: #c4c7ca !important;
   box-shadow: #212931;
 }
@@ -18866,7 +18866,7 @@ ol.ui.horizontal.list li:before,
 .ui.inverted.form input[type="file"]:focus,
 .ui.inverted.form input[type="url"]:focus {
   color: #ffffff;
-  border-color: #6a7277;
+  border: 1px solid #6a7277;
 }
 
 .ui.inverted.form textarea:focus {
@@ -31636,7 +31636,7 @@ Selection
 .ui.selection.inverted.dropdown .menu:focus,
 .ui.selection.active.dropdown .menu:hover,
 .ui.selection.active.inverted.dropdown:hover .menu {
-  border-color: #52585c !important;
+  border-color: #6a7277 !important;
 }
 /*!
  * # Semantic UI 2.2.10 - Video

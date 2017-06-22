@@ -99,5 +99,5 @@ box-shadow: none !important;
 .ui.selection.inverted.dropdown .menu:focus,
 .ui.selection.active.dropdown .menu:hover,
 .ui.selection.active.inverted.dropdown:hover .menu {
-border-color: darken(@muted-text, 10%) !important;
+border-color: @muted-text !important;
 }

@@ -1531,5 +1531,5 @@ Selection
 .ui.selection.inverted.dropdown .menu:focus,
 .ui.selection.active.dropdown .menu:hover,
 .ui.selection.active.inverted.dropdown:hover .menu {
-  border-color: #52585c !important;
+  border-color: #6a7277 !important;
 }

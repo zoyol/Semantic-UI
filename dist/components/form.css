@@ -1274,7 +1274,7 @@
 .ui.inverted.form input[type="file"]:focus,
 .ui.inverted.form input[type="url"]:focus {
   color: #ffffff;
-  border-color: #6a7277;
+  border: 1px solid #6a7277;
 }
 .ui.inverted.form textarea:focus {
   color: #ffffff;

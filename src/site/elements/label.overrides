@@ -4,7 +4,7 @@
 
 .ui.inverted.label {
   background: @highlight;
-  border: 1px solid @muted-text;
+  border: 1px solid darken(@muted-text, 10%);
   color: @white;
   box-shadow: @main-dark;
 }
@@ -32,7 +32,7 @@ a.ui.inverted.label:hover {
 
 .ui.basic.inverted.label {
   background: @main-dark;
-  border: @main-dark;
+  border: 1px solid @main-dark;
   color: @text !important;
   box-shadow: @main-dark;
 }

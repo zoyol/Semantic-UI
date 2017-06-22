@@ -1307,7 +1307,7 @@ a.ui.basic.label:hover {
 
 .ui.inverted.label {
   background: #3c464f;
-  border: 1px solid #6a7277;
+  border: 1px solid #52585c;
   color: #ffffff;
   box-shadow: #212931;
 }
@@ -1333,7 +1333,7 @@ a.ui.inverted.label:hover {
 
 .ui.basic.inverted.label {
   background: #212931;
-  border: #212931;
+  border: 1px solid #212931;
   color: #c4c7ca !important;
   box-shadow: #212931;
 }

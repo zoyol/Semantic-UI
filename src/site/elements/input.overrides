@@ -3,16 +3,16 @@
 *******************************/
 
 .ui.labeled.input:not([class*="corner labeled"]) .label:first-child + input:focus {
-  border-left-color: darken(@muted-text, 10%);
+  border-left-color: @main-dark;
 }
 
 /* Input Focus */
 .ui.action.input:not([class*="left action"]) input:focus {
-  border-right-color: darken(@muted-text, 10%) !important;
+  border-right-color: @main-dark !important;
 }
 
 .ui[class*="right labeled"].input input:focus {
-    border-right-color: darken(@muted-text, 10%) !important;
+    border-right-color: @main-dark !important;
 }
 
 .ui.input { color: @white; }

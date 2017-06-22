@@ -208,9 +208,9 @@
 .ui.inverted.form input[type="file"]:focus,
 .ui.inverted.form input[type="url"]:focus {
   color: @white;
-  border-color: @muted-text;
+  border: 1px solid @muted-text;
 }
 .ui.inverted.form textarea:focus {
   color: @white;
-  border-color: @muted-text;
+  border-color: @muted-text
 }
