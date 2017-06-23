@@ -19,3 +19,43 @@
   background: transparent !important;
   }
 }
+
+
+
+/*--------------
+     Tabular
+---------------*/
+
+.ui.inverted.tabular.menu {
+  background: @main-dark;
+  border-bottom: 1px solid #2b3640;
+}
+
+.ui.inverted.tabular.menu .item {
+  color: @text;
+}
+
+/* Hover */
+.ui.inverted.tabular.menu .item:hover {
+  background-color: transparent;
+  color: @white;
+}
+
+/* Active */
+.ui.inverted.tabular.menu .active.item {
+  background: #1B232A;
+  color: @white;
+  border-color: @main;
+}
+
+/* Active Hover*/
+.ui.inverted.tabular.menu .active.item:hover {
+  background: #1B232A;
+}
+
+
+
+/* Bottom Vertical Tabular */
+.ui.bottom.inverted.tabular.menu {
+  background: @main-dark;
+}

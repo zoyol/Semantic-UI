@@ -23410,6 +23410,46 @@ Floated Menu / Item
 .ui.secondary.inverted.menu .active.item.right.inverted.item {
   background: transparent !important;
 }
+
+/*--------------
+     Tabular
+---------------*/
+
+.ui.inverted.tabular.menu {
+  background: #212931;
+  border-bottom: 1px solid #2b3640;
+}
+
+.ui.inverted.tabular.menu .item {
+  color: #c4c7ca;
+}
+
+/* Hover */
+
+.ui.inverted.tabular.menu .item:hover {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+/* Active */
+
+.ui.inverted.tabular.menu .active.item {
+  background: #1B232A;
+  color: #ffffff;
+  border-color: #2b3640;
+}
+
+/* Active Hover*/
+
+.ui.inverted.tabular.menu .active.item:hover {
+  background: #1B232A;
+}
+
+/* Bottom Vertical Tabular */
+
+.ui.bottom.inverted.tabular.menu {
+  background: #212931;
+}
 /*!
  * # Semantic UI 2.2.10 - Message
  * http://github.com/semantic-org/semantic-ui/
