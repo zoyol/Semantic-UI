@@ -89,7 +89,7 @@ border: 1px solid darken(@muted-text, 10%);
 
 .ui.selection.inverted.dropdown .menu {
 background: @highlight;
-border: 1px solid darken(@muted-text, 10%);
+border: 1px solid @muted-text;
 box-shadow: none !important;
 }
 
