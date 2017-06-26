@@ -1,3 +1,17 @@
 /*******************************
          Site Overrides
 *******************************/
+
+/* Divider */
+.ui.inverted.breadcrumb .divider {
+  opacity: 1;
+  color: @text;
+}
+
+/* Link */
+.ui.inverted.breadcrumb a {
+  color: @green;
+}
+.ui.inverted.breadcrumb a:hover {
+  color: darken(@green, 5%);
+}

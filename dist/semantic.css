@@ -17479,6 +17479,23 @@ ol.ui.horizontal.list li:before,
 /*******************************
          Site Overrides
 *******************************/
+
+/* Divider */
+
+.ui.inverted.breadcrumb .divider {
+  opacity: 1;
+  color: #c4c7ca;
+}
+
+/* Link */
+
+.ui.inverted.breadcrumb a {
+  color: #5EA12E;
+}
+
+.ui.inverted.breadcrumb a:hover {
+  color: #528d28;
+}
 /*!
  * # Semantic UI 2.2.10 - Form
  * http://github.com/semantic-org/semantic-ui/
