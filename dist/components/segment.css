@@ -542,10 +542,10 @@
 
 /* Green */
 .ui.green.segment:not(.inverted) {
-  border-top: 2px solid #5EA12E;
+  border-top: 2px solid #29AE47;
 }
 .ui.inverted.green.segment {
-  background-color: #5EA12E !important;
+  background-color: #29AE47 !important;
   color: #ffffff !important;
 }
 
@@ -560,28 +560,28 @@
 
 /* Blue */
 .ui.blue.segment:not(.inverted) {
-  border-top: 2px solid #2185D0;
+  border-top: 2px solid #389DE9;
 }
 .ui.inverted.blue.segment {
-  background-color: #2185D0 !important;
+  background-color: #389DE9 !important;
   color: #ffffff !important;
 }
 
 /* Violet */
 .ui.violet.segment:not(.inverted) {
-  border-top: 2px solid #6435C9;
+  border-top: 2px solid #AA3BB0;
 }
 .ui.inverted.violet.segment {
-  background-color: #6435C9 !important;
+  background-color: #AA3BB0 !important;
   color: #ffffff !important;
 }
 
 /* Purple */
 .ui.purple.segment:not(.inverted) {
-  border-top: 2px solid #A333C8;
+  border-top: 2px solid #AA3BB0;
 }
 .ui.inverted.purple.segment {
-  background-color: #A333C8 !important;
+  background-color: #AA3BB0 !important;
   color: #ffffff !important;
 }
 

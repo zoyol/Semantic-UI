@@ -1477,6 +1477,7 @@ Keyboard Select
 }
 .ui.selection.visible.inverted.dropdown > .text:not(.default) {
   color: #ffffff;
+  width: 100%;
 }
 .ui.menu .ui.inverted.dropdown .menu > .item:hover,
 .ui.inverted.dropdown .menu > .item:hover,
@@ -1508,6 +1509,14 @@ divider
 
 .ui.inverted.dropdown .menu > .divider {
   border-top: 1px solid #6a7277;
+}
+
+/*--------------
+      Text
+---------------*/
+
+.ui.inverted.dropdown > .text {
+  display: block;
 }
 
 /*--------------
