@@ -636,7 +636,7 @@
 
 .ui.inverted.checkbox .box:after,
 .ui.inverted.checkbox label:after {
-  color: #29AE47;
+  color: #5EA12E;
 }
 
 
@@ -670,7 +670,7 @@
 }
 .ui.inverted.checkbox .box:active::after,
 .ui.inverted.checkbox label:active::after {
-  color: #29AE47;
+  color: #5EA12E;
 }
 
 /*--------------
@@ -684,7 +684,7 @@
 }
 .ui.inverted.checkbox input:focus ~ .box:after,
 .ui.inverted.checkbox input:focus ~ label:after {
-  color: #29AE47;
+  color: #5EA12E;
 }
 
 /*--------------
@@ -698,7 +698,7 @@
 }
 .ui.inverted.checkbox input:checked ~ .box:after,
 .ui.inverted.checkbox input:checked ~ label:after {
-  color: #29AE47;
+  color: #5EA12E;
 }
 
 /*--------------
@@ -712,7 +712,7 @@
 }
 .ui.inverted.checkbox input:not([type=radio]):indeterminate ~ .box:after,
 .ui.inverted.checkbox input:not([type=radio]):indeterminate ~ label:after {
-  color: #29AE47;
+  color: #5EA12E;
 }
 
 /*--------------
@@ -724,13 +724,13 @@
 .ui.inverted.checkbox input:checked:focus ~ .box:before,
 .ui.inverted.checkbox input:checked:focus ~ label:before {
   background: #3c464f;
-  border-color: #29AE47;
+  border-color: #5EA12E;
 }
 .ui.inverted.checkbox input:not([type=radio]):indeterminate:focus ~ .box:after,
 .ui.inverted.checkbox input:not([type=radio]):indeterminate:focus ~ label:after,
 .ui.inverted.checkbox input:checked:focus ~ .box:after,
 .ui.inverted.checkbox input:checked:focus ~ label:after {
-  color: #29AE47;
+  color: #5EA12E;
 }
 
 /*--------------
@@ -763,7 +763,7 @@
 /* Radio Checkbox */
 .ui.inverted.radio.checkbox .box:after,
 .ui.inverted.radio.checkbox label:after {
-  background-color: #29AE47;
+  background-color: #5EA12E;
 }
 
 /* Active */
@@ -773,7 +773,7 @@
 }
 .ui.inverted.radio.checkbox input:checked ~ .box:after,
 .ui.inverted.radio.checkbox input:checked ~ label:after {
-  background-color: #29AE47;
+  background-color: #5EA12E;
 }
 
 /*--------------
@@ -820,7 +820,7 @@
 }
 .ui.inverted.toggle.checkbox input:checked ~ .box:before,
 .ui.inverted.toggle.checkbox input:checked ~ label:before {
-  background-color: #29AE47 !important;
+  background-color: #5EA12E !important;
 }
 
 /* Active Focus */

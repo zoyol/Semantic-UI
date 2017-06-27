@@ -404,19 +404,19 @@
 }
 .ui.violet.message {
   background-color: #EAE7FF;
-  color: #AA3BB0;
-  box-shadow: 0px 0px 0px 1px #AA3BB0 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: #6435C9;
+  box-shadow: 0px 0px 0px 1px #6435C9 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.violet.message .header {
-  color: #98359d;
+  color: #5a30b5;
 }
 .ui.purple.message {
   background-color: #F6E7FF;
-  color: #AA3BB0;
-  box-shadow: 0px 0px 0px 1px #AA3BB0 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: #6435C9;
+  box-shadow: 0px 0px 0px 1px #6435C9 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.purple.message .header {
-  color: #98359d;
+  color: #5a30b5;
 }
 .ui.pink.message {
   background-color: #FFE3FB;

@@ -2,7 +2,7 @@
      User Global Variables
 *******************************/
 
-@green: #29AE47;
+@green: #5EA12E;
 @green-light: #c7eab0;
 @yellow:#FFBD00;
 @orange:#FA7000;
@@ -15,8 +15,7 @@
 @white: #ffffff;
 @blue:#389DE9;
 @red: #CE0F0F;
-@purple: #AA3BB0;
-@violet: @purple;
+@purple: #6435C9;
 
 @mod: #00b5ad;
 @rx-plus: @purple;
