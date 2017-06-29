@@ -39,6 +39,7 @@ color: @white;
 
 .ui.selection.visible.inverted.dropdown > .text:not(.default) {
 color: @white;
+width: 100%;
 }
 
 .ui.menu .ui.inverted.dropdown .menu > .item:hover,
@@ -73,6 +74,15 @@ divider
 ---------------*/
 .ui.inverted.dropdown .menu > .divider {
 border-top: 1px solid @muted-text;
+}
+
+
+/*--------------
+      Text
+---------------*/
+
+.ui.inverted.dropdown > .text {
+  display: block;
 }
 
 

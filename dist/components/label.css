@@ -754,16 +754,16 @@ a.ui.basic.teal.label:hover {
 
 .ui.blue.labels .label,
 .ui.blue.label {
-  background-color: #2185D0 !important;
-  border-color: #2185D0 !important;
+  background-color: #389DE9 !important;
+  border-color: #389DE9 !important;
   color: #ffffff !important;
 }
 
 /* Link */
 .ui.blue.labels .label:hover,
 a.ui.blue.label:hover {
-  background-color: #1678c2 !important;
-  border-color: #1678c2 !important;
+  background-color: #1793f0 !important;
+  border-color: #1793f0 !important;
   color: #ffffff !important;
 }
 
@@ -775,20 +775,20 @@ a.ui.blue.label:hover {
 
 /* Ribbon */
 .ui.blue.ribbon.label {
-  border-color: #1a69a4 !important;
+  border-color: #1884d6 !important;
 }
 
 /* Basic */
 .ui.basic.blue.label {
   background-color: #ffffff !important;
-  color: #2185D0 !important;
-  border-color: #2185D0 !important;
+  color: #389DE9 !important;
+  border-color: #389DE9 !important;
 }
 .ui.basic.blue.labels a.label:hover,
 a.ui.basic.blue.label:hover {
   background-color: #ffffff !important;
-  color: #1678c2 !important;
-  border-color: #1678c2 !important;
+  color: #1793f0 !important;
+  border-color: #1793f0 !important;
 }
 
 /*--- Violet ---*/
@@ -836,16 +836,16 @@ a.ui.basic.violet.label:hover {
 
 .ui.purple.labels .label,
 .ui.purple.label {
-  background-color: #A333C8 !important;
-  border-color: #A333C8 !important;
+  background-color: #6435C9 !important;
+  border-color: #6435C9 !important;
   color: #ffffff !important;
 }
 
 /* Link */
 .ui.purple.labels .label:hover,
 a.ui.purple.label:hover {
-  background-color: #9627ba !important;
-  border-color: #9627ba !important;
+  background-color: #5829bb !important;
+  border-color: #5829bb !important;
   color: #ffffff !important;
 }
 
@@ -857,20 +857,20 @@ a.ui.purple.label:hover {
 
 /* Ribbon */
 .ui.purple.ribbon.label {
-  border-color: #82299f !important;
+  border-color: #502aa1 !important;
 }
 
 /* Basic */
 .ui.basic.purple.label {
   background-color: #ffffff !important;
-  color: #A333C8 !important;
-  border-color: #A333C8 !important;
+  color: #6435C9 !important;
+  border-color: #6435C9 !important;
 }
 .ui.basic.purple.labels a.label:hover,
 a.ui.basic.purple.label:hover {
   background-color: #ffffff !important;
-  color: #9627ba !important;
-  border-color: #9627ba !important;
+  color: #5829bb !important;
+  border-color: #5829bb !important;
 }
 
 /*--- Pink ---*/

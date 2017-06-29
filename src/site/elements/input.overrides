@@ -16,3 +16,12 @@
 }
 
 .ui.input { color: @white; }
+
+
+/*--- KM ---*/
+.ui.km.labels .label,
+.ui.km.label {
+  background-color: @muted-text !important;
+  border-color: @muted-text !important;
+  color: @white !important;
+}
