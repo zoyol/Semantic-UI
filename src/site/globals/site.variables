@@ -15,9 +15,9 @@
 @white: #ffffff;
 @blue:#389DE9;
 @red: #CE0F0F;
-@purple: #6435C9;
+@plum: #6435C9;
 
 @mod: #00b5ad;
-@rx-plus: @purple;
+@rx-plus: @plum;
 @rx-minus: @blue;
 @rx: @green;
