@@ -499,9 +499,32 @@
 
 
 /*******************************
-         Theme Overrides
+         Site Overrides
 *******************************/
 
+.ui.labeled.input:not([class*="corner labeled"]) .label:first-child + input:focus {
+  border-left-color: #212931;
+}
+
+/* Input Focus */
+.ui.action.input:not([class*="left action"]) input:focus {
+  border-right-color: #212931 !important;
+}
+.ui[class*="right labeled"].input input:focus {
+  border-right-color: #212931 !important;
+}
+.ui.input {
+  color: #ffffff;
+}
+
+/*--- KM ---*/
+
+.ui.km.labels .label,
+.ui.km.label {
+  background-color: #6a7277 !important;
+  border-color: #6a7277 !important;
+  color: #ffffff !important;
+}
 
 
 /*******************************

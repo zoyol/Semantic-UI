@@ -787,9 +787,14 @@
 
 
 /*******************************
-         Theme Overrides
+         Site Overrides
 *******************************/
 
+
+/* Attached */
+.ui.inverted.attached.segment {
+  border-color: #2b3640;
+}
 
 
 /*******************************

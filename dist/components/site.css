@@ -149,9 +149,46 @@ input::selection {
 
 
 /*******************************
-        Global Overrides
+Site Overrides
 *******************************/
 
+
+
+/*******************************
+Highlighting
+*******************************/
+
+
+/* Site */
+::-webkit-selection {
+  background-color: #5EA12E;
+  color: #ffffff;
+}
+::-moz-selection {
+  background-color: #5EA12E;
+  color: #ffffff;
+}
+::selection {
+  background-color: #5EA12E;
+  color: #ffffff;
+}
+
+/* Form */
+textarea::-webkit-selection,
+input::-webkit-selection {
+  background-color: #5EA12E;
+  color: #ffffff;
+}
+textarea::-moz-selection,
+input::-moz-selection {
+  background-color: #5EA12E;
+  color: #ffffff;
+}
+textarea::selection,
+input::selection {
+  background-color: #5EA12E;
+  color: #ffffff;
+}
 
 
 /*******************************
