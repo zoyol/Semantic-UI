@@ -113,33 +113,19 @@
 
 
 /*******************************
-         Site Overrides
+         Theme Overrides
 *******************************/
 
-
-/* Divider */
-.ui.inverted.breadcrumb .divider {
-  opacity: 1;
-  color: #c4c7ca;
-}
-
-/* Link */
-.ui.inverted.breadcrumb a {
-  color: #5EA12E;
-}
-.ui.inverted.breadcrumb a:hover {
-  color: #528d28;
-}
 
 
 /*******************************
-         Site Overrides
+         Breadcrumbs Overrides
 *******************************/
 
 
 /* Divider */
 .ui.inverted.breadcrumb .divider {
-  opacity: 1;
+  opacity: 0.5;
   color: #c4c7ca;
 }
 
