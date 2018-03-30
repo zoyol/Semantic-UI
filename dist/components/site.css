@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.13 - Site
+ * # Semantic UI 2.3.1 - Site
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -10,7 +10,7 @@
 
 
 /*******************************
-             Page 
+             Page
 *******************************/
 
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
@@ -157,6 +157,7 @@ input::selection {
 body ::-webkit-scrollbar {
   -webkit-appearance: none;
   width: 10px;
+  height: 10px;
 }
 body ::-webkit-scrollbar-track {
   background: rgba(0, 0, 0, 0.1);
@@ -198,43 +199,6 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 
 
 /*******************************
-Site Overrides
+         Site Overrides
 *******************************/
 
-
-
-/*******************************
-Highlighting
-*******************************/
-
-
-/* Site */
-::-webkit-selection {
-  background-color: #5EA12E;
-  color: #ffffff;
-}
-::-moz-selection {
-  background-color: #5EA12E;
-  color: #ffffff;
-}
-::selection {
-  background-color: #5EA12E;
-  color: #ffffff;
-}
-
-/* Form */
-textarea::-webkit-selection,
-input::-webkit-selection {
-  background-color: #5EA12E;
-  color: #ffffff;
-}
-textarea::-moz-selection,
-input::-moz-selection {
-  background-color: #5EA12E;
-  color: #ffffff;
-}
-textarea::selection,
-input::selection {
-  background-color: #5EA12E;
-  color: #ffffff;
-}

@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.13 - Dropdown
+ * # Semantic UI 2.3.1 - Dropdown
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -168,7 +168,7 @@
   height: 0em;
   margin: 0.5em 0em;
 }
-.ui.dropdown .menu > .input {
+.ui.dropdown.dropdown .menu > .input {
   width: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -356,7 +356,7 @@
           transform: rotateZ(0deg);
   min-width: 14em;
   min-height: 2.71428571em;
-  background: #ffffff;
+  background: #FFFFFF;
   display: inline-block;
   padding: 0.78571429em 2.1em 0.78571429em 1em;
   color: rgba(0, 0, 0, 0.87);
@@ -1258,7 +1258,7 @@ select.ui.dropdown {
   height: 0.5em;
   -webkit-box-shadow: -1px -1px 0px 0px rgba(34, 36, 38, 0.15);
           box-shadow: -1px -1px 0px 0px rgba(34, 36, 38, 0.15);
-  background: #ffffff;
+  background: #FFFFFF;
   z-index: 2;
 }
 .ui.pointing.dropdown > .menu:after {
@@ -1485,7 +1485,6 @@ select.ui.dropdown {
 .ui.vertical.menu .dropdown.item > .dropdown.icon:before {
   content: "\f0da" /*rtl:"\f0d9"*/;
 }
-
 /* Icons for Reference
 .dropdown.down.icon {
   content: "\f0d7";
@@ -1503,111 +1502,6 @@ select.ui.dropdown {
 
 
 /*******************************
-User Overrides
+        User Overrides
 *******************************/
 
-
-/*--------------
-Menu
----------------*/
-
-.ui.menu .inverted.dropdown.item .menu,
-.ui.inverted.dropdown .menu {
-  background: #3c464f;
-  border: #6a7277;
-  -webkit-box-shadow: 0 0 6px 1px #171c22 !important;
-          box-shadow: 0 0 6px 1px #171c22 !important;
-}
-
-/*--------------
-Menu Item
----------------*/
-
-.ui.menu .ui.inverted.dropdown .menu > .item,
-.ui.inverted.dropdown .menu > .item {
-  border: 0px solid #3c464f;
-  color: #ffffff !important;
-  font-weight: 300 !important;
-  -webkit-box-shadow: #212931;
-          box-shadow: #212931;
-}
-
-/*--------------------
-Keyboard Select
-----------------------*/
-
-/* Selected Item */
-.ui.inverted.dropdown.selected,
-.ui.inverted.dropdown .menu .selected.item {
-  background: #2b3640;
-  color: #ffffff;
-}
-.ui.selection.visible.inverted.dropdown > .text:not(.default) {
-  color: #ffffff;
-  width: 100%;
-}
-.ui.menu .ui.inverted.dropdown .menu > .item:hover,
-.ui.inverted.dropdown .menu > .item:hover,
-.ui.inverted.dropdown .menu > .item:hover {
-  background: #2b3640 !important;
-  color: #ffffff !important;
-}
-.ui.menu .ui.inverted.dropdown .menu > .active.item,
-.ui.inverted.dropdown .menu .active.item {
-  background: #2b3640 !important;
-  color: #ffffff !important;
-}
-.ui.active.search.inverted.dropdown input.search:focus + .text {
-  color: #ffffff !important;
-}
-
-/*-----------------
-Item Description
--------------------*/
-
-.ui.inverted.dropdown > .text > .description,
-.ui.inverted.dropdown .menu > .item > .description {
-  color: #ffffff;
-}
-
-/*--------------
-divider
----------------*/
-
-.ui.inverted.dropdown .menu > .divider {
-  border-top: 1px solid #6a7277;
-}
-
-/*--------------
-      Text
----------------*/
-
-.ui.inverted.dropdown > .text {
-  display: block;
-}
-
-/*--------------
-Selection
----------------*/
-
-.ui.selection.inverted.dropdown {
-  background: #3c464f !important;
-  color: #c4c7ca;
-  -webkit-box-shadow: #212931;
-          box-shadow: #212931;
-  border: 1px solid #52585c;
-}
-.ui.selection.inverted.dropdown .menu {
-  background: #3c464f;
-  border: 1px solid #6a7277;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
-}
-.ui.selection.active.inverted.dropdown,
-.ui.selection.inverted.dropdown:focus,
-.ui.selection.active.dropdown:hover,
-.ui.selection.inverted.dropdown .menu:focus,
-.ui.selection.active.dropdown .menu:hover,
-.ui.selection.active.inverted.dropdown:hover .menu {
-  border-color: #6a7277 !important;
-}

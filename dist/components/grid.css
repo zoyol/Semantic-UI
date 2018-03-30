@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.13 - Grid
+ * # Semantic UI 2.3.1 - Grid
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -1123,8 +1123,8 @@
           box-shadow: none;
 }
 .ui.inverted[class*="vertically divided"].grid > .row:before {
-  -webkit-box-shadow: 0px -1px 0px 0px #3c464f;
-          box-shadow: 0px -1px 0px 0px #3c464f;
+  -webkit-box-shadow: 0px -1px 0px 0px rgba(255, 255, 255, 0.1);
+          box-shadow: 0px -1px 0px 0px rgba(255, 255, 255, 0.1);
 }
 
 /* Relaxed */
@@ -1352,24 +1352,24 @@
 .ui.grid > .red.row,
 .ui.grid > .red.column,
 .ui.grid > .row > .red.column {
-  background-color: #CE0F0F !important;
-  color: #ffffff;
+  background-color: #DB2828 !important;
+  color: #FFFFFF;
 }
 
 /* Orange */
 .ui.grid > .orange.row,
 .ui.grid > .orange.column,
 .ui.grid > .row > .orange.column {
-  background-color: #FA7000 !important;
-  color: #ffffff;
+  background-color: #F2711C !important;
+  color: #FFFFFF;
 }
 
 /* Yellow */
 .ui.grid > .yellow.row,
 .ui.grid > .yellow.column,
 .ui.grid > .row > .yellow.column {
-  background-color: #FFBD00 !important;
-  color: #ffffff;
+  background-color: #FBBD08 !important;
+  color: #FFFFFF;
 }
 
 /* Olive */
@@ -1377,15 +1377,15 @@
 .ui.grid > .olive.column,
 .ui.grid > .row > .olive.column {
   background-color: #B5CC18 !important;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 /* Green */
 .ui.grid > .green.row,
 .ui.grid > .green.column,
 .ui.grid > .row > .green.column {
-  background-color: #5EA12E !important;
-  color: #ffffff;
+  background-color: #21BA45 !important;
+  color: #FFFFFF;
 }
 
 /* Teal */
@@ -1393,15 +1393,15 @@
 .ui.grid > .teal.column,
 .ui.grid > .row > .teal.column {
   background-color: #00B5AD !important;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 /* Blue */
 .ui.grid > .blue.row,
 .ui.grid > .blue.column,
 .ui.grid > .row > .blue.column {
-  background-color: #389DE9 !important;
-  color: #ffffff;
+  background-color: #2185D0 !important;
+  color: #FFFFFF;
 }
 
 /* Violet */
@@ -1409,7 +1409,7 @@
 .ui.grid > .violet.column,
 .ui.grid > .row > .violet.column {
   background-color: #6435C9 !important;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 /* Purple */
@@ -1417,7 +1417,7 @@
 .ui.grid > .purple.column,
 .ui.grid > .row > .purple.column {
   background-color: #A333C8 !important;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 /* Pink */
@@ -1425,7 +1425,7 @@
 .ui.grid > .pink.column,
 .ui.grid > .row > .pink.column {
   background-color: #E03997 !important;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 /* Brown */
@@ -1433,7 +1433,7 @@
 .ui.grid > .brown.column,
 .ui.grid > .row > .brown.column {
   background-color: #A5673F !important;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 /* Grey */
@@ -1441,7 +1441,7 @@
 .ui.grid > .grey.column,
 .ui.grid > .row > .grey.column {
   background-color: #767676 !important;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 /* Black */
@@ -1449,7 +1449,7 @@
 .ui.grid > .black.column,
 .ui.grid > .row > .black.column {
   background-color: #1B1C1D !important;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 /*----------------------

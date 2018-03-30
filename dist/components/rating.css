@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.13 - Rating
+ * # Semantic UI 2.3.1 - Rating
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -261,29 +261,3 @@
          Site Overrides
 *******************************/
 
-
-/*-------------------
-        Star
---------------------*/
-
-
-/*-------------------
-      Standard
---------------------*/
-
-
-/* Inactive Icon */
-.ui.rating .icon {
-  color: #6a7277;
-}
-
-/* Active Icon */
-.ui.rating .active.icon {
-  color: #FFBD00;
-}
-
-/* Selected Icon */
-.ui.rating .icon.selected,
-.ui.rating .icon.selected.active {
-  color: #FFBD00;
-}

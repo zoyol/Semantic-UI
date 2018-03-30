@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.13 - Statistic
+ * # Semantic UI 2.3.1 - Statistic
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -320,17 +320,17 @@
 .ui.red.statistics .statistic > .value,
 .ui.statistics .red.statistic > .value,
 .ui.red.statistic > .value {
-  color: #CE0F0F;
+  color: #DB2828;
 }
 .ui.orange.statistics .statistic > .value,
 .ui.statistics .orange.statistic > .value,
 .ui.orange.statistic > .value {
-  color: #FA7000;
+  color: #F2711C;
 }
 .ui.yellow.statistics .statistic > .value,
 .ui.statistics .yellow.statistic > .value,
 .ui.yellow.statistic > .value {
-  color: #FFBD00;
+  color: #FBBD08;
 }
 .ui.olive.statistics .statistic > .value,
 .ui.statistics .olive.statistic > .value,
@@ -340,7 +340,7 @@
 .ui.green.statistics .statistic > .value,
 .ui.statistics .green.statistic > .value,
 .ui.green.statistic > .value {
-  color: #5EA12E;
+  color: #21BA45;
 }
 .ui.teal.statistics .statistic > .value,
 .ui.statistics .teal.statistic > .value,
@@ -350,7 +350,7 @@
 .ui.blue.statistics .statistic > .value,
 .ui.statistics .blue.statistic > .value,
 .ui.blue.statistic > .value {
-  color: #389DE9;
+  color: #2185D0;
 }
 .ui.violet.statistics .statistic > .value,
 .ui.statistics .violet.statistic > .value,
@@ -384,7 +384,7 @@
 
 .ui.inverted.statistics .statistic > .value,
 .ui.inverted.statistic .value {
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .ui.inverted.statistics .statistic > .label,
 .ui.inverted.statistic .label {

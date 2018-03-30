@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.13 - Segment
+ * # Semantic UI 2.3.1 - Segment
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -15,7 +15,7 @@
 
 .ui.segment {
   position: relative;
-  background: #ffffff;
+  background: #FFFFFF;
   -webkit-box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
           box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
   margin: 1rem 0em;
@@ -53,7 +53,7 @@
 
 /* Header */
 .ui.inverted.segment > .ui.header {
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 /* Label */
@@ -88,7 +88,7 @@
 
 /* Table */
 .ui.basic.table.segment {
-  background: #ffffff;
+  background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
   -webkit-box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
           box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
@@ -124,7 +124,7 @@
 .ui.piled.segments:before,
 .ui.piled.segment:after,
 .ui.piled.segment:before {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   visibility: visible;
   content: '';
   display: block;
@@ -358,7 +358,7 @@
   background-color: transparent;
   border-radius: 0px;
   padding: 0em;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   -webkit-box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
           box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
   margin: 1rem 0em;
@@ -520,29 +520,29 @@
 
 /* Red */
 .ui.red.segment:not(.inverted) {
-  border-top: 2px solid #CE0F0F !important;
+  border-top: 2px solid #DB2828 !important;
 }
 .ui.inverted.red.segment {
-  background-color: #CE0F0F !important;
-  color: #ffffff !important;
+  background-color: #DB2828 !important;
+  color: #FFFFFF !important;
 }
 
 /* Orange */
 .ui.orange.segment:not(.inverted) {
-  border-top: 2px solid #FA7000 !important;
+  border-top: 2px solid #F2711C !important;
 }
 .ui.inverted.orange.segment {
-  background-color: #FA7000 !important;
-  color: #ffffff !important;
+  background-color: #F2711C !important;
+  color: #FFFFFF !important;
 }
 
 /* Yellow */
 .ui.yellow.segment:not(.inverted) {
-  border-top: 2px solid #FFBD00 !important;
+  border-top: 2px solid #FBBD08 !important;
 }
 .ui.inverted.yellow.segment {
-  background-color: #FFBD00 !important;
-  color: #ffffff !important;
+  background-color: #FBBD08 !important;
+  color: #FFFFFF !important;
 }
 
 /* Olive */
@@ -551,16 +551,16 @@
 }
 .ui.inverted.olive.segment {
   background-color: #B5CC18 !important;
-  color: #ffffff !important;
+  color: #FFFFFF !important;
 }
 
 /* Green */
 .ui.green.segment:not(.inverted) {
-  border-top: 2px solid #5EA12E !important;
+  border-top: 2px solid #21BA45 !important;
 }
 .ui.inverted.green.segment {
-  background-color: #5EA12E !important;
-  color: #ffffff !important;
+  background-color: #21BA45 !important;
+  color: #FFFFFF !important;
 }
 
 /* Teal */
@@ -569,16 +569,16 @@
 }
 .ui.inverted.teal.segment {
   background-color: #00B5AD !important;
-  color: #ffffff !important;
+  color: #FFFFFF !important;
 }
 
 /* Blue */
 .ui.blue.segment:not(.inverted) {
-  border-top: 2px solid #389DE9 !important;
+  border-top: 2px solid #2185D0 !important;
 }
 .ui.inverted.blue.segment {
-  background-color: #389DE9 !important;
-  color: #ffffff !important;
+  background-color: #2185D0 !important;
+  color: #FFFFFF !important;
 }
 
 /* Violet */
@@ -587,7 +587,7 @@
 }
 .ui.inverted.violet.segment {
   background-color: #6435C9 !important;
-  color: #ffffff !important;
+  color: #FFFFFF !important;
 }
 
 /* Purple */
@@ -596,7 +596,7 @@
 }
 .ui.inverted.purple.segment {
   background-color: #A333C8 !important;
-  color: #ffffff !important;
+  color: #FFFFFF !important;
 }
 
 /* Pink */
@@ -605,7 +605,7 @@
 }
 .ui.inverted.pink.segment {
   background-color: #E03997 !important;
-  color: #ffffff !important;
+  color: #FFFFFF !important;
 }
 
 /* Brown */
@@ -614,7 +614,7 @@
 }
 .ui.inverted.brown.segment {
   background-color: #A5673F !important;
-  color: #ffffff !important;
+  color: #FFFFFF !important;
 }
 
 /* Grey */
@@ -623,7 +623,7 @@
 }
 .ui.inverted.grey.segment {
   background-color: #767676 !important;
-  color: #ffffff !important;
+  color: #FFFFFF !important;
 }
 
 /* Black */
@@ -632,7 +632,7 @@
 }
 .ui.inverted.black.segment {
   background-color: #1B1C1D !important;
-  color: #ffffff !important;
+  color: #FFFFFF !important;
 }
 
 /*-------------------
@@ -674,8 +674,8 @@
 }
 .ui.inverted.segment,
 .ui.primary.inverted.segment {
-  background: rgba(0, 0, 0, 0.15);
-  color: #c4c7ca;
+  background: #1B1C1D;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 /* Nested */
@@ -683,7 +683,7 @@
   color: rgba(0, 0, 0, 0.87);
 }
 .ui.inverted.segment .inverted.segment {
-  color: #c4c7ca;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 /* Attached */
@@ -815,8 +815,3 @@
          Site Overrides
 *******************************/
 
-
-/* Attached */
-.ui.inverted.attached.segment {
-  border-color: #2b3640;
-}

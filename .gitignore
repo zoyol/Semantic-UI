@@ -1,7 +1,7 @@
 node_modules/
 test/coverage/
 coverage/
-# src/**/site/
+src/**/site/
 theme.config
 semantic.json
 tasks/**/oauth.js
@@ -34,6 +34,4 @@ nbproject
 *.sublime-project
 *.sublime-workspace
 .build*
-
-# Forged Elite
-*.theme.config
+.idea

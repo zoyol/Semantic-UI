@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.13 - Breadcrumb
+ * # Semantic UI 2.3.1 - Breadcrumb
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -122,17 +122,3 @@
          Site Overrides
 *******************************/
 
-
-/* Divider */
-.ui.inverted.breadcrumb .divider {
-  opacity: 1;
-  color: #c4c7ca;
-}
-
-/* Link */
-.ui.inverted.breadcrumb a {
-  color: #5EA12E;
-}
-.ui.inverted.breadcrumb a:hover {
-  color: #528d28;
-}
